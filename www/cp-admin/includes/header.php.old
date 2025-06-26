@@ -1,0 +1,341 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?=$_SESSION["Lang"]?>" lang="<?=$_SESSION["Lang"]?>">
+<head>
+<title><?=$str_lang['LANG_HOME_TITLE'] ."&nbsp;&laquo;&nbsp;". $str_lang['LANG_AUTOR']?></title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta name="author" content="<?php echo $autor?>"/>
+
+
+<meta http-equiv="expires" content="-1">
+
+<link rel="shortcut icon" href="<?php echo imgpath; ?>favicon.ico"/>
+<link rel="stylesheet" type="text/css" href="<?php echo $realadmin_path; ?>css/style.css" title="normal"/>
+<link type="text/css" href="<?php echo $realadmin_path; ?>scripts/css/redmond/jquery-ui-1.8.custom.css" rel="stylesheet" />
+<link rel="stylesheet" href="<?php echo $realadmin_path; ?>css/thickbox.css" type="text/css" media="screen" />
+<!--<script src="http://maps.google.com/maps?file=api&amp;v=2&amp;sensor=true&amp;key=ABQIAAAA2bhnbM7NO4XToGwiNEYbTBQokgt5r13ea6F1jlnVyh63KSliDhTpH-WclqlF7rzfKjGVyOLI7-QC4Q" type="text/javascript"></script>-->
+<script src="http://maps.google.com/maps?file=api&amp;v=2&amp;sensor=true&amp;key=ABQIAAAA5bdFWyoeQ4UlFqT4xayb7BSG7_gsFfIsebZU-Fb5cbqJSVAikBQbOcepK3nR2TwGl4jQ_37gA8mseA" type="text/javascript"></script>
+
+<script src="<?php echo $realadmin_path; ?>scripts/jquery.js" type="text/javascript"></script>
+<script type="text/javascript" src="<?php echo $realadmin_path; ?>scripts/ui/jquery.ui.core.js"></script>
+<script type="text/javascript" src="<?php echo $realadmin_path; ?>scripts/ui/jquery.ui.widget.js"></script>
+<script type="text/javascript" src="<?php echo $realadmin_path; ?>scripts/ui/jquery.ui.datepicker.js"></script>
+<script type="text/javascript" src="<?php echo $realadmin_path; ?>scripts/ui/jquery.ui.datepicker-es.js"></script>
+<script type="text/javascript" src="<?php echo $realadmin_path; ?>scripts/ui/jquery.ui.datepicker-pt-BR.js"></script>
+<script type="text/javascript" src="<?php echo $realadmin_path; ?>scripts/jquery.validate.js"></script>
+<script type="text/javascript" src="<?php echo $realadmin_path; ?>scripts/thickbox.js"></script>
+<script type="text/javascript" src="<?php echo $realadmin_path; ?>scripts/jquery.MultiFile.js"></script>
+
+<script src="<?php echo $realadmin_path; ?>scripts/jquery.tablesorter.js" type="text/javascript"></script>
+<script src="<?php echo $realadmin_path; ?>scripts/func.js" type="text/javascript"></script>
+
+
+</head>
+
+<body>
+<div id="wrapper">
+	
+	<!-- Cabecera -->
+	<div id="header" class="header-menu">
+		<div class="intro">
+			<p class="date"><?=$str_lang['LANG_HEADER_HOY']?> <?php echo '<span style="text-transform: capitalize;">
+								'.htmlentities(strftime("%A, %d" ,time())).'</span>
+                                de
+								<span style="text-transform: capitalize;">
+								'.htmlentities(strftime("%B" ,time())).'</span>
+								de
+								<span style="text-transform: capitalize;">
+								'.htmlentities(strftime("%Y",time())).'
+								</span>';
+		    $sub=getPrefijoLang();
+			/*$sel1="link1";
+			$sel2="link1";
+			if ($sub=="_pt")
+				$sel2="linkselected";
+			else
+				$sel1="linkselected";
+				*/
+				//<a class="<$sel1" href="<$admin_pathlang/ES/"><$str_lang['LANG_HEADER_ES']</a>&nbsp;<a class="<=$sel2" href="<$admin_pathlang/PT/" ><str_lang['LANG_HEADER_PT'] </a>
+			?></p>
+			
+			<p class="link"><a href="<?php echo $admin_path?>usuarios/"><?php echo $_SESSION['user'] ?></a> (<a href="<?=$admin_path?>usuarios/"><?=getPerfil()?></a>)<span>|</span> <a href="<?php echo $admin_path?>logout/"><?=$str_lang['LANG_HEADER_LOGOUT']?></a></p>
+		</div>
+		<div class="clr"><hr /></div>
+		<div class="logo-link">
+			<p class="logo"><?=$str_lang['LANG_AUTOR']?>  <strong><?=$str_lang['LANG_HEADER_ADMIN']?></strong></p>
+			<p class="link"><a href="<?php echo $admin_path?>dashboard/"><?=$str_lang['LANG_HEADER_TAB_DASH']?></a> | <a href="<?php echo $path?>"><?=$str_lang['LANG_HEADER_VISITAR']?> <?php echo $str_lang['LANG_AUTOR']?></a></p>
+		</div>
+		<div class="clr"><hr /></div>
+
+		<div class="nav-bar no-submenu'">
+			<ul>
+			<?php
+			$f_status=strip_tags($_GET['status']);	
+			//var_dump($modulo);
+			
+			switch ($modulo){
+				case 'dashboard':
+						if (!is_jefeguardia())							
+							echo'<li><a href="'.$admin_path.'dashboard/" '.getSelectedNav($modulo,"dashboard").'><span>'.$str_lang['LANG_HEADER_TAB_DASH'].'</span></a></li>';
+						echo'<li><a href="'.$admin_path.'hidrantes/" '.getSelectedNav($modulo,"hidrantes").'><span>'.$str_lang['LANG_HEADER_TAB_HIDRANTES'].'</span></a></li>
+						<li><a href="'.$admin_path.'municipios/" '.getSelectedNav($modulo,"municipios").'><span>'.$str_lang['LANG_HEADER_TAB_MUNICIPIOS'].'</span></a></li>';		
+  					    if (is_admin() )
+						{
+							echo '<li><a href="'.$admin_path.'usuarios/" '.getSelectedNav($modulo,"usuarios").'><span>'.$str_lang['LANG_HEADER_TAB_USUARIOS'].'</span></a></li>';		
+						}							 
+					break;
+					case 'hidrantes':
+						if (!is_jefeguardia())							
+							echo'<li><a href="'.$admin_path.'dashboard/" '.getSelectedNav($modulo,"dashboard").'><span>'.$str_lang['LANG_HEADER_TAB_DASH'].'</span></a></li>';
+						echo'						
+						<li><a href="'.$admin_path.'hidrantes/" '.getSelectedNav($modulo,"hidrantes").'><span>'.$str_lang['LANG_HEADER_TAB_HIDRANTES'].'</span></a>';
+			
+							switch ($datos)
+							{
+								case "view":
+									$id=get_id_by_uri();
+									echo '
+									<div>
+									<ul>';
+									if (!is_consorcio())
+										echo'<li><a href="'.$admin_path.'hidrantes/view/'.$id.'/" '.getSelectedNav($datos,"view").'><span>'.$str_lang['LANG_HEADER_TAB_FICHA'].'</span></a>	</li>';
+									if (!is_jefeguardia() && !is_consorcio() && !is_oficialjefe && !is_uno_uno_dos())
+										echo'<li><a href="'.$admin_path.'hidrantes/edit/'.$id.'/" '.getSelectedNav($datos,"edit").'><span>'.$str_lang['LANG_HEADER_TAB_EDITAR'].'</span></a>	</li>';
+									
+										echo '<li><a href="'.$admin_path.'hidrantes/comment/'.$id.'/" '.getSelectedNav($datos,"comment").'><span>'.$str_lang['LANG_HEADER_TAB_COMENTARIOS'].'</span></a>	</li>';
+									if (is_gerente() || is_consorcio() || is_admin()) 									
+										echo '<li><a href="'.$admin_path.'hidrantes/cartas/'.$id.'/" '.getSelectedNav($datos,"cartas").'><span>'.$str_lang['LANG_HEADER_TAB_CARTAS'].'</span></a>	</li>';
+									echo '</ul>
+									</div>';
+									break;
+								case "comment":
+									$id=get_id_by_uri();
+									echo '
+									<div>
+									<ul>';
+									if (!is_consorcio())
+										echo '<li><a href="'.$admin_path.'hidrantes/view/'.$id.'/" '.getSelectedNav($datos,"view").'><span>'.$str_lang['LANG_HEADER_TAB_FICHA'].'</span></a>	</li>';
+									if (!is_jefeguardia() && !is_consorcio()&& !is_oficialjefe && !is_uno_uno_dos())
+										echo'<li><a href="'.$admin_path.'hidrantes/edit/'.$id.'/" '.getSelectedNav($datos,"edit").'><span>'.$str_lang['LANG_HEADER_TAB_EDITAR'].'</span></a>	</li>';
+									
+										echo '<li><a href="'.$admin_path.'hidrantes/comment/'.$id.'/" '.getSelectedNav($datos,"comment").'><span>'.$str_lang['LANG_HEADER_TAB_COMENTARIOS'].'</span></a>	</li>';
+									if (is_gerente() || is_consorcio() || is_admin()) 									
+										echo '<li><a href="'.$admin_path.'hidrantes/cartas/'.$id.'/" '.getSelectedNav($datos,"cartas").'><span>'.$str_lang['LANG_HEADER_TAB_CARTAS'].'</span></a>	</li>';
+									echo '</ul>
+									</div>';
+									break;
+								case "edit":
+									$id=get_id_by_uri();
+									echo '
+									<div>
+									<ul>';
+									if (!is_consorcio())
+										echo '<li><a href="'.$admin_path.'hidrantes/view/'.$id.'/" '.getSelectedNav($datos,"view").'><span>'.$str_lang['LANG_HEADER_TAB_FICHA'].'</span></a>	</li>';
+									if (!is_jefeguardia() && !is_consorcio()&& !is_oficialjefe && !is_uno_uno_dos())
+										echo'<li><a href="'.$admin_path.'hidrantes/edit/'.$id.'/" '.getSelectedNav($datos,"edit").'><span>'.$str_lang['LANG_HEADER_TAB_EDITAR'].'</span></a>	</li>';
+									
+										echo '<li><a href="'.$admin_path.'hidrantes/comment/'.$id.'/" '.getSelectedNav($datos,"comment").'><span>'.$str_lang['LANG_HEADER_TAB_COMENTARIOS'].'</span></a>	</li>';
+									if (is_gerente() || is_consorcio() || is_admin()) 									
+										echo '<li><a href="'.$admin_path.'hidrantes/cartas/'.$id.'/" '.getSelectedNav($datos,"cartas").'><span>'.$str_lang['LANG_HEADER_TAB_CARTAS'].'</span></a>	</li>';
+									echo '</ul>
+									</div>';
+									break;
+								case "cartas":
+									$id=get_id_by_uri();
+									echo '
+									<div>
+									<ul>';
+									if (!is_consorcio())
+										echo '	<li><a href="'.$admin_path.'hidrantes/view/'.$id.'/" '.getSelectedNav($datos,"view").'><span>'.$str_lang['LANG_HEADER_TAB_FICHA'].'</span></a>	</li>';
+									if (!is_jefeguardia() && !is_consorcio()&& !is_oficialjefe && !is_uno_uno_dos())
+										echo'<li><a href="'.$admin_path.'hidrantes/edit/'.$id.'/" '.getSelectedNav($datos,"edit").'><span>'.$str_lang['LANG_HEADER_TAB_EDITAR'].'</span></a>	</li>';
+									
+										echo '<li><a href="'.$admin_path.'hidrantes/comment/'.$id.'/" '.getSelectedNav($datos,"comment").'><span>'.$str_lang['LANG_HEADER_TAB_COMENTARIOS'].'</span></a>	</li>';
+									if (is_gerente() || is_consorcio() || is_admin()) 									
+										echo '<li><a href="'.$admin_path.'hidrantes/cartas/'.$id.'/" '.getSelectedNav($datos,"cartas").'><span>'.$str_lang['LANG_HEADER_TAB_CARTAS'].'</span></a>	</li>';
+									echo '</ul>
+									</div>';
+									break;
+								case "informes":
+										echo '
+									<div>
+									<ul>';
+									echo '<li><a href="'.$admin_path.'hidrantes/"  ><span>'.$str_lang['LANG_HIDRANTES_TITLE_LIST'].'</span></a>	</li>';
+									if (is_consorcio())
+									{
+										echo '<li><a href="'.$admin_path.'hidrantes/listadocartas/" '.getSelectedNav($datos,"listadocartas").'><span>'.$str_lang['LANG_CARTAS_LISTADO_1'].'</span></a>	</li>';
+											echo '<li><a href="'.$admin_path.'hidrantes/listadocartapdf/" '.getSelectedNav($datos,"listadocartapdf").'><span>'.$str_lang['LANG_CARTAS_LISTADO_2'].'</span></a>	</li>';
+									}else
+									{										
+										echo '<li><a href="'.$admin_path.'hidrantes/informes/" '.getSelectedNav($datos,"informes").'><span>'.$str_lang['LANG_HEADER_TAB_INFORMES'].'</span></a>	</li>
+										<li	><a href="'.$admin_path.'hidrantes/excel/" '.getSelectedNav($datos,"excel").'><span>'.$str_lang['LANG_HEADER_TAB_EXCEL'].'</span></a>	</li>
+										<li><a href="'.$admin_path.'hidrantes/pendientes/" '.getSelectedNav($datos,"pendientes").'><span>'.$str_lang['LANG_HEADER_TAB_PENDIENTES'].'</span></a>	</li>';
+										echo '<li><a href="'.$admin_path.'hidrantes/earth/" '.getSelectedNav($datos,"earth").'><span>Google&nbsp;Earth</span></a>	</li>';
+									}
+									
+									echo'</ul>
+									</div>';	
+									break;	
+								case "pendientes":
+										echo '
+									<div>
+									<ul>';
+									echo '<li><a href="'.$admin_path.'hidrantes/" ><span>'.$str_lang['LANG_HIDRANTES_TITLE_LIST'].'</span></a>	</li>';
+									if (is_consorcio())
+									{
+										echo '<li><a href="'.$admin_path.'hidrantes/listadocartas/" '.getSelectedNav($datos,"listadocartas").'><span>'.$str_lang['LANG_CARTAS_LISTADO_1'].'</span></a>	</li>';
+											echo '<li><a href="'.$admin_path.'hidrantes/listadocartapdf/" '.getSelectedNav($datos,"listadocartapdf").'><span>'.$str_lang['LANG_CARTAS_LISTADO_2'].'</span></a>	</li>';
+									}else
+									{										
+										echo '<li><a href="'.$admin_path.'hidrantes/informes/" '.getSelectedNav($datos,"informes").'><span>'.$str_lang['LANG_HEADER_TAB_INFORMES'].'</span></a>	</li>
+										<li	><a href="'.$admin_path.'hidrantes/excel/" '.getSelectedNav($datos,"excel").'><span>'.$str_lang['LANG_HEADER_TAB_EXCEL'].'</span></a>	</li>
+										<li><a href="'.$admin_path.'hidrantes/pendientes/" '.getSelectedNav($datos,"pendientes").'><span>'.$str_lang['LANG_HEADER_TAB_PENDIENTES'].'</span></a>	</li>';
+										echo '<li><a href="'.$admin_path.'hidrantes/earth/" '.getSelectedNav($datos,"earth").'><span>Google&nbsp;Earth</span></a>	</li>';
+									}
+									
+									echo'</ul>
+									</div>';	
+									break;		
+								case "listadocartas":
+										echo '
+									<div>
+									<ul>';
+									echo '<li><a href="'.$admin_path.'hidrantes/"  ><span>'.$str_lang['LANG_HIDRANTES_TITLE_LIST'].'</span></a>	</li>';
+									if (is_consorcio())
+									{
+										echo '<li><a href="'.$admin_path.'hidrantes/listadocartas/" '.getSelectedNav($datos,"listadocartas").'><span>'.$str_lang['LANG_CARTAS_LISTADO_1'].'</span></a>	</li>';
+											echo '<li><a href="'.$admin_path.'hidrantes/listadocartapdf/" '.getSelectedNav($datos,"listadocartapdf").'><span>'.$str_lang['LANG_CARTAS_LISTADO_2'].'</span></a>	</li>';
+									}else
+									{										
+										echo '<li><a href="'.$admin_path.'hidrantes/informes/" '.getSelectedNav($datos,"informes").'><span>'.$str_lang['LANG_HEADER_TAB_INFORMES'].'</span></a>	</li>
+										<li	><a href="'.$admin_path.'hidrantes/excel/" '.getSelectedNav($datos,"excel").'><span>'.$str_lang['LANG_HEADER_TAB_EXCEL'].'</span></a>	</li>
+										<li><a href="'.$admin_path.'hidrantes/pendientes/" '.getSelectedNav($datos,"pendientes").'><span>'.$str_lang['LANG_HEADER_TAB_PENDIENTES'].'</span></a>	</li>';
+										echo '<li><a href="'.$admin_path.'hidrantes/earth/" '.getSelectedNav($datos,"earth").'><span>Google&nbsp;Earth</span></a>	</li>';
+									}
+									
+									echo'</ul>
+									</div>';	
+									break;		
+								case "listadocartapdf":
+										echo '
+									<div>
+									<ul>';
+									echo '<li><a href="'.$admin_path.'hidrantes/"  ><span>'.$str_lang['LANG_HIDRANTES_TITLE_LIST'].'</span></a>	</li>';
+									if (is_consorcio())
+									{
+										echo '<li><a href="'.$admin_path.'hidrantes/listadocartas/" '.getSelectedNav($datos,"listadocartas").'><span>'.$str_lang['LANG_CARTAS_LISTADO_1'].'</span></a>	</li>';
+										echo '<li><a href="'.$admin_path.'hidrantes/listadocartapdf/" '.getSelectedNav($datos,"listadocartapdf").'><span>'.$str_lang['LANG_CARTAS_LISTADO_2'].'</span></a>	</li>';
+									}else
+									{										
+										echo '<li><a href="'.$admin_path.'hidrantes/informes/" '.getSelectedNav($datos,"informes").'><span>'.$str_lang['LANG_HEADER_TAB_INFORMES'].'</span></a>	</li>
+										<li	><a href="'.$admin_path.'hidrantes/excel/" '.getSelectedNav($datos,"excel").'><span>'.$str_lang['LANG_HEADER_TAB_EXCEL'].'</span></a>	</li>
+										<li><a href="'.$admin_path.'hidrantes/pendientes/" '.getSelectedNav($datos,"pendientes").'><span>'.$str_lang['LANG_HEADER_TAB_PENDIENTES'].'</span></a>	</li>';
+										echo '<li><a href="'.$admin_path.'hidrantes/earth/" '.getSelectedNav($datos,"earth").'><span>Google&nbsp;Earth</span></a>	</li>';
+									}
+									
+									echo'</ul>
+									</div>';	
+									break;														
+								case "earth":
+										echo '
+									<div>
+									<ul>';
+									echo '<li><a href="'.$admin_path.'hidrantes/" ><span>'.$str_lang['LANG_HIDRANTES_TITLE_LIST'].'</span></a>	</li>';
+									if (is_consorcio())
+									{
+										echo '<li><a href="'.$admin_path.'hidrantes/listadocartas/" '.getSelectedNav($datos,"listadocartas").'><span>'.$str_lang['LANG_CARTAS_LISTADO_1'].'</span></a>	</li>';
+											echo '<li><a href="'.$admin_path.'hidrantes/listadocartapdf/" '.getSelectedNav($datos,"listadocartapdf").'><span>'.$str_lang['LANG_CARTAS_LISTADO_2'].'</span></a>	</li>';
+									}else
+									{										
+										echo '<li><a href="'.$admin_path.'hidrantes/informes/" '.getSelectedNav($datos,"informes").'><span>'.$str_lang['LANG_HEADER_TAB_INFORMES'].'</span></a>	</li>
+										<li	><a href="'.$admin_path.'hidrantes/excel/" '.getSelectedNav($datos,"excel").'><span>'.$str_lang['LANG_HEADER_TAB_EXCEL'].'</span></a>	</li>
+										<li><a href="'.$admin_path.'hidrantes/pendientes/" '.getSelectedNav($datos,"pendientes").'><span>'.$str_lang['LANG_HEADER_TAB_PENDIENTES'].'</span></a>	</li>';
+										echo '<li><a href="'.$admin_path.'hidrantes/earth/" '.getSelectedNav($datos,"earth").'><span>Google&nbsp;Earth</span></a>	</li>';
+									}
+									
+									echo'</ul>
+									</div>';	
+						
+									break;
+								case "excel":
+								echo '
+									<div>
+									<ul>';
+									echo '<li><a href="'.$admin_path.'hidrantes/" ><span>'.$str_lang['LANG_HIDRANTES_TITLE_LIST'].'</span></a>	</li>';
+									if (is_consorcio())
+									{
+										echo '<li><a href="'.$admin_path.'hidrantes/listadocartas/" '.getSelectedNav($datos,"listadocartas").'><span>'.$str_lang['LANG_CARTAS_LISTADO_1'].'</span></a>	</li>';
+											echo '<li><a href="'.$admin_path.'hidrantes/listadocartapdf/" '.getSelectedNav($datos,"listadocartapdf").'><span>'.$str_lang['LANG_CARTAS_LISTADO_2'].'</span></a>	</li>';
+									}else
+									{										
+										echo '<li><a href="'.$admin_path.'hidrantes/informes/" '.getSelectedNav($datos,"informes").'><span>'.$str_lang['LANG_HEADER_TAB_INFORMES'].'</span></a>	</li>
+										<li	><a href="'.$admin_path.'hidrantes/excel/" '.getSelectedNav($datos,"excel").'><span>'.$str_lang['LANG_HEADER_TAB_EXCEL'].'</span></a>	</li>
+										<li><a href="'.$admin_path.'hidrantes/pendientes/" '.getSelectedNav($datos,"pendientes").'><span>'.$str_lang['LANG_HEADER_TAB_PENDIENTES'].'</span></a>	</li>';
+										echo '<li><a href="'.$admin_path.'hidrantes/earth/" '.getSelectedNav($datos,"earth").'><span>Google&nbsp;Earth</span></a>	</li>';
+									}
+									
+									echo'</ul>
+									</div>';	
+						
+									break;
+								case "":
+									echo '
+									<div>
+									<ul>';
+									echo '<li><a href="'.$admin_path.'hidrantes/" class="active"><span>'.$str_lang['LANG_HIDRANTES_TITLE_LIST'].'</span></a>	</li>';
+									if (is_consorcio())
+									{
+										echo '<li><a href="'.$admin_path.'hidrantes/listadocartas/" '.getSelectedNav($datos,"listadocartas").'><span>'.$str_lang['LANG_CARTAS_LISTADO_1'].'</span></a>	</li>';
+											echo '<li><a href="'.$admin_path.'hidrantes/listadocartapdf/" '.getSelectedNav($datos,"listadocartapdf").'><span>'.$str_lang['LANG_CARTAS_LISTADO_2'].'</span></a>	</li>';
+									}else
+									{										
+										echo '<li><a href="'.$admin_path.'hidrantes/informes/" '.getSelectedNav($datos,"informes").'><span>'.$str_lang['LANG_HEADER_TAB_INFORMES'].'</span></a>	</li>
+										<li	><a href="'.$admin_path.'hidrantes/excel/" '.getSelectedNav($datos,"excel").'><span>'.$str_lang['LANG_HEADER_TAB_EXCEL'].'</span></a>	</li>
+										<li><a href="'.$admin_path.'hidrantes/pendientes/" '.getSelectedNav($datos,"pendientes").'><span>'.$str_lang['LANG_HEADER_TAB_PENDIENTES'].'</span></a>	</li>';
+										echo '<li><a href="'.$admin_path.'hidrantes/earth/" '.getSelectedNav($datos,"earth").'><span>Google&nbsp;Earth</span></a>	</li>';
+									}
+									
+									echo'</ul>
+									</div>';
+									break;
+							}
+						echo '</li>
+						<li><a href="'.$admin_path.'municipios/" '.getSelectedNav($modulo,"municipios").'><span>'.$str_lang['LANG_HEADER_TAB_MUNICIPIOS'].'</span></a></li>';		
+						 if (is_admin() )
+						{
+							echo '<li><a href="'.$admin_path.'usuarios/" '.getSelectedNav($modulo,"usuarios").'><span>'.$str_lang['LANG_HEADER_TAB_USUARIOS'].'</span></a></li>';		
+						}	
+					break;
+					case 'municipios':
+						if (!is_jefeguardia())							
+								echo'<li><a href="'.$admin_path.'dashboard/" '.getSelectedNav($modulo,"dashboard").'><span>'.$str_lang['LANG_HEADER_TAB_DASH'].'</span></a></li>';
+						echo'						
+						<li><a href="'.$admin_path.'hidrantes/" '.getSelectedNav($modulo,"hidrantes").'><span>'.$str_lang['LANG_HEADER_TAB_HIDRANTES'].'</span></a></li>
+						<li><a href="'.$admin_path.'municipios/" '.getSelectedNav($modulo,"municipios").'><span>'.$str_lang['LANG_HEADER_TAB_MUNICIPIOS'].'</span></a></li>';		
+						 if (is_admin() )
+							{
+								echo '<li><a href="'.$admin_path.'usuarios/" '.getSelectedNav($modulo,"usuarios").'><span>'.$str_lang['LANG_HEADER_TAB_USUARIOS'].'</span></a></li>';		
+							}
+	
+					break;				
+					case 'usuarios':
+						if (!is_jefeguardia())							
+								echo'<li><a href="'.$admin_path.'dashboard/" '.getSelectedNav($modulo,"dashboard").'><span>'.$str_lang['LANG_HEADER_TAB_DASH'].'</span></a></li>';
+						echo'						
+						<li><a href="'.$admin_path.'hidrantes/" '.getSelectedNav($modulo,"hidrantes").'><span>'.$str_lang['LANG_HEADER_TAB_HIDRANTES'].'</span></a></li>
+						<li><a href="'.$admin_path.'municipios/" '.getSelectedNav($modulo,"municipios").'><span>'.$str_lang['LANG_HEADER_TAB_MUNICIPIOS'].'</span></a></li>';		
+						 if (is_admin())
+							{
+								echo '<li><a href="'.$admin_path.'usuarios/" '.getSelectedNav($modulo,"usuarios").'><span>'.$str_lang['LANG_HEADER_TAB_USUARIOS'].'</span></a></li>';		
+							}
+	
+					break;				
+			}?>
+			</ul>
+		</div>
+	</div>
+	<!-- // Cabecera -->
+	
+	<div class="clr"><hr /></div>

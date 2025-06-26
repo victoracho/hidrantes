@@ -1,0 +1,258 @@
+/* PAG ERROR /
+LANG_PAGE_ERROR_TITLE, Página não encontrada.
+LANG_PAGE_ERROR_CONTENT, A página solicitada não existe. Disculpe as moléstias.
+
+/* MSG ERROR /
+LANG_MSG_ERROR1,As contraseñas não coincidem.
+LANG_MSG_ERROR2,As contraseñas é um campo obrigatório.
+LANG_MSG_ERROR3,O utente é um campo obrigatório.
+LANG_MSG_ERROR4,O utente já exste.
+LANG_MSG_ERROR5,Erro ao actualizar.
+LANG_MSG_ERROR6,O código é um campo obrigatório.
+LANG_MSG_ERROR7,O município já exste. Comprove o código.
+LANG_MSG_ERROR8,Erro ao eliminar o arquivo
+LANG_MSG_ERROR9,O arquivo já existe
+LANG_MSG_ERROR10,O hidrante já exste. Comprove o código.
+LANG_MSG_ERROR11,Erro ao eliminar a foto.
+LANG_MSG_ERROR12,Faz favor introduza o comentário.
+LANG_MSG_ERROR13,Erro na data.
+LANG_MSG_ERROR14,O comentário deve de estar sócio.
+LANG_MSG_ERROR15,Erro ao acrescentar o comentário.
+LANG_MSG_ERROR16,Erro ao gerar a carta
+LANG_MSG_ERROR17,Deve seleccionar algum comentário
+LANG_MSG_ERROR18,Não há comentários
+LANG_MSG_ERROR19,Não há hidrantes
+LANG_MSG_ERROR20,Erro al enviar el comentário al chefe de parque
+LANG_MSG_ERROR21,O comentário tem cartas associadas. Não se pode eliminar.
+LANG_MSG_ERROR22,Não se pôde guardar a carta.
+LANG_MSG_ERROR23,Erro ao editar comentário
+LANG_MSG_ERROR24,Não há registos que cumpram as condições de busca
+
+/*MSG OK /
+LANG_MSG_OK1,Os dados foram inseridos correctamente.
+LANG_MSG_OK2,Os dados foram eliminados.
+LANG_MSG_OK3,Os dados foram actualizados.
+LANG_MSG_OK4,Arquivo eliminado corectamente.
+LANG_MSG_OK5,O arquivo foi carregado correctamente.
+LANG_MSG_OK6,O hidrante inseriu-se correctamente.
+LANG_MSG_OK7,Foto eliminada correctamente.
+LANG_MSG_OK8,Comentário acrescentado correctamente.
+LANG_MSG_OK9,Carta eliminada correctamente.
+LANG_MSG_OK10,A carta gerou-se e enviado correctamente.
+LANG_MSG_OK11,Comentário enviado correctamente.
+LANG_MSG_OK12,A carta guardou-se correctamente
+LANG_MSG_OK13,Comentário editado correctamente.
+
+/ HOME */
+LANG_HOME_TITLE, Gestão de Hidrantes
+LANG_AUTOR,Gestão de Hidrantes - CBT
+
+/ LOGIN */
+LANG_LOGIN_USER, Nome de utente
+LANG_LOGIN_PASS, Contraseña 
+LANG_LOGIN_RECORDAR, Recordar-me
+LANG_LOGIN_ACCESS, Aceder
+
+/ HEADER CP */
+LANG_HEADER_HOY,Hoje é
+LANG_HEADER_ES, Espanhol
+LANG_HEADER_PT, Português
+LANG_HEADER_LOGOUT, Desligar
+LANG_HEADER_ADMIN, Administração
+LANG_HEADER_TAB_DASH, Escritorio
+LANG_HEADER_TAB_HIDRANTES, Gestão de Hidrantes
+LANG_HEADER_TAB_MUNICIPIOS, Gestão de Municípios
+LANG_HEADER_TAB_USUARIOS, Gestão de Utentes
+LANG_HEADER_TAB_FICHA, Ficha
+LANG_HEADER_TAB_EDITAR, Editar
+LANG_HEADER_TAB_COMENTARIOS, Comentários
+LANG_HEADER_TAB_CARTAS, Cartas
+LANG_HEADER_TAB_EXCEL,Excel
+
+/DASHBOARD */
+LANG_DASH_WELLCOME, Bem-vindo ao painel de administração
+LANG_DASH_LASTCOMMENT, &Uacute;ltimos Comentários
+LANG_DASH_TEXTCOMMENT, Comentário do Utente <b>%s</b> sobre as observações (%s) do hidrante
+LANG_DASH_VER, Ver
+LANG_DASH_LASTHIDRANTE,&Uacute;ltimos Hidrantes
+LANG_DASH_TEXTHIDRANTE,<b>Hidrante(%s)</b> de tipo %s no municipio de
+LANG_DASH_CARTAS1,Cartas Pendentes de registar
+LANG_DASH_CARTAS2,Cartas não registadas
+LANG_DASH_TEXTO1,Há <b>%s carta/s</b> solicitado pelo utente <b>%s</b> sobre o hidrante
+LANG_DASH_TEXTO2,Há <b>%s carta/s</b> enviadas pelo utente <b>%s</b> sobre o hidrante
+
+/USUARIOS LISTADO*/
+LANG_USERS_TITLE_LISTADO, Listagem de Utentes
+LANG_USERS_ADD, Acrescentar Utente
+LANG_USERS_COL_COD, Código&nbsp;Bombeiro
+LANG_USERS_COL_NAME, Nome 
+LANG_USERS_COL_Y, e
+LANG_USERS_COL_LASTNAME, Apellidos
+LANG_USERS_COL_USER, Utente
+LANG_USERS_COL_PERFIL, Perfil
+LANG_USERS_COL_PARQUE, Parque associado
+LANG_USERS_COL_TLF, Telefones
+LANG_USERS_COL_EMAIL, E-mail
+LANG_USERS_COL_ACCIONES, Acções
+LANG_USERS_DEL,Apagar
+
+/USUARIOS INSERT*/
+LANG_INSERT_TITLE_LISTADO, Acrescentar Utente
+LANG_INSERT_VOLVER, Voltar à listagem de utentes
+LANG_INSERT_CLAVE,Finque
+LANG_INSERT_RCLAVE,Repita Finque
+LANG_INSERT_GUARDAR,Guardar Utente
+LANG_INSERT_UPDATE,Actualizar Utente
+LANG_EDIT_TITLE_LISTADO, Editar Utente
+
+MUNICIPIOS*/
+LANG_MUNICIPIOS_SELALL,Seleccionar todos
+LANG_MUNICIPIOS_TITLE_LIST, Listado de Municípios
+LANG_MUNICIPIOS_TITLE_EDIT, Editar Municípios
+LANG_MUNICIPIOS_TITLE_INSERT, Acrescentar Municípios
+LANG_MUNICIPIOS_TITLE_VOLVER, Voltar à listagem de municípios
+LANG_MUNICIPIOS_COL_CODMUN, Cod.&nbsp;Municípios
+LANG_MUNICIPIOS_COL_CP, Código&nbsp;Postal
+LANG_MUNICIPIOS_COL_MUNICIPIO, Municípios
+LANG_MUNICIPIOS_COL_EMPRESA, Empresa&nbsp;Suministradora
+LANG_MUNICIPIOS_COL_EMPRESA2, Empresa
+LANG_MUNICIPIOS_COL_CONTACTO, Pessoa&nbsp;Contacto
+LANG_MUNICIPIOS_FICHEROS,Arquivos
+LANG_MUNICIPIOS_FICHEROS_ADD,Acrescentar&nbsp;Arquivos
+LANG_MUNICIPIOS_COL_CODMUNICIPIO, Código&nbsp;Município
+LANG_MUNICIPIOS_COL_DIRECCION, Direcção
+LANG_MUNICIPIOS_COL_POBLACION, População
+LANG_MUNICIPIOS_OBS,Observações
+LANG_MUNICIPIOS_GUARDAR,Guardar Município
+LANG_MUNICIPIOS_FICHEROS_DEL,Eliminar Arquivo
+LANG_MUNICIPIOS_AYUNT,Nome da prefeitura
+LANG_MUNICIPIOS_DEPARTAMENTO,Departamento
+
+/HIDRANTES*/
+LANG_HIDRANTES_TITLE_LIST, Listado de Hidrantes
+LANG_HIDRANTES_TITLE_VOLVER,Voltar à listagem de hidrantes
+LANG_HIDRANTES_ADD,Acrescentar Hidrantes
+LANG_HIDRANTES_BUSCAR,Procurar
+LANG_HIDRANTES_LIMPIAR,Limpar
+LANG_HIDRANTES_CODHIDRANTE,Código Hidrante
+LANG_HIDRANTES_OBS,	Incluir Observações
+LANG_HIDRANTES_FOTO,Foto
+LANG_HIDRANTES_FOTO_ADD,Acrescentar Fotos
+LANG_HIDRANTES_CODIGO,Código
+LANG_HIDRANTES_SITUACION,Situação
+LANG_HIDRANTES_CALLE,Rua
+LANG_HIDRANTES_EDIFICIO,Edifício
+LANG_HIDRANTES_FECHA,Data&nbsp;de&nbsp;alta
+LANG_HIDRANTES_UTM,Coordenadas&nbsp;UTM
+LANG_HIDRANTES_UTM1,Coordenadas UTM
+LANG_HIDRANTES_GEO,Coordenadas&nbsp;Geográficas
+LANG_HIDRANTES_GEO1,Coordenadas Geográficas
+LANG_HIDRANTES_PLANO,Plano&nbsp;de&nbsp;Situação
+LANG_HIDRANTES_TIPOH,Tipo&nbsp;de&nbsp;Hidrante
+LANG_HIDRANTES_TIPO,Tipo
+LANG_HIDRANTES_DIAMETROS,Diámetros
+LANG_HIDRANTES_RACORES,Racores
+LANG_HIDRANTES_SENYAL,Señalizado
+LANG_HIDRANTES_ABAST,Abastecimento
+LANG_HIDRANTES_EXTERIOR,Desde&nbsp;rede&nbsp;exterior
+LANG_HIDRANTES_PRESION,Pressão&nbsp;e&nbsp;volume&nbsp;adequado
+LANG_HIDRANTES_MAN,Manutenção
+LANG_HIDRANTES_ESTADO,Estado&nbsp;general&nbsp;adequado
+LANG_HIDRANTES_UPDATE,Actualizar Hidrante
+LANG_HIDRANTES_YES,Se
+LANG_HIDRANTES_NO,Não
+LANG_HIDRANTES_EDIT,Editar Hidrantes
+LANG_HIDRANTES_FOTO_DEL,Eliminar Foto
+LANG_HIDRANTES_HUSO,Huso
+LANG_HIDRANTES_EXPORTAR,Exportar a Excel
+LANG_HIDRANTES_EXPORTAR_COORDENADAS,Exportar Coordenadas a Excel
+LANG_HIDRANTES_EXPORTARPDF,Exportar a PDF
+LANG_HIDRANTES_EXCEL,Exportar os dados de hidrantes de um município a arquivo Excel
+
+/COMENTARIOS*/
+LANG_COMENTARIOS_TITLE,Comentários Hidrante
+LANG_COMENTARIOS_DHIDRANTE,Dados Hidrante
+LANG_COMENTARIOS_ASOCIADO, Tipo&nbsp;de&nbsp;incidencia
+LANG_COMENTARIOS_ADD,Acrescentar Novo Comentário
+LANG_COMENTARIOS_ENVIAR,Enviar
+LANG_COMENTARIOS_FECHA,Data
+LANG_COMENTARIOS_TITLE_VOLVER,Voltar à listagem de comentários
+LANG_COMENTARIOS_EDITAR,Editar Comentário
+LANG_COMENTARIOS_ANYADIR,Acrescentar
+
+/CARTAS*/
+LANG_CARTAS_TITLE_VOLVER,Voltar à listagem de cartas
+LANG_CARTAS_TEXTO1,Tem-se %s a solicitação de envio da carta
+LANG_CARTAS_RESPUESTA,Resposta
+LANG_CARTAS_SOLICITUD,Solicitação
+LANG_CARTAS_ACEPTADO,aceitada
+LANG_CARTAS_DENEGADO,denegado
+LANG_CARTAS_TEXTO2,Solicitou-se o envio de uma carta
+LANG_CARTAS_TEXTO8,Carta enviada com registo %s e código interno %s
+LANG_CARTAS_SOLICITAR,Validar carta
+LANG_CARTAS_LISTADO,Listado de Cartas Solicitadas
+LANG_CARTAS_LISTADO_1,Listado de Cartas
+LANG_CARTAS_LISTADO_2,Listado de Cartas PDF
+LANG_CARTAS_NCARTA,Nº&nbsp;Carta
+LANG_CARTAS_NCARTAS,Nº de Carta
+LANG_CARTAS_ESTADO,Estado
+LANG_CARTAS_REGISTRADA,Registada
+LANG_CARTAS_FECHAR,Data&nbsp;Saída
+LANG_CARTAS_FECHARE,Data&nbsp;Entrada
+LANG_CARTAS_NREGISTRO,Número&nbsp;Registo
+LANG_CARTAS_INTERNO,Número&nbsp;Interno
+LANG_CARTAS_GUARDAR,Guardar
+LANG_CARTAS_CERRAR,Fechar Carta
+LANG_CARTAS_PENDIENTE,Pendente
+LANG_CARTAS_PREVIEW,Previsualizar
+LANG_CARTAS_VIEW,Ver/Imprimir&nbsp;carta
+LANG_CARTAS_ONLY_VIEW,Ver&nbsp;carta
+LANG_CARTAS_ASOCIADO, Sócio
+LANG_CARTAS_COMENTARIO, Comentário
+LANG_CARTAS_TEXTO3,Pela presente comunica-se-lhe que o hidrante situado em seu município, identificado como
+LANG_CARTAS_TEXTO4,presenta las siguientes incidencias detectadas por nuestros técnicos en la revisión realizada recientemente:
+LANG_CARTAS_TEXTO5,pelo que lhe solicitamos tomem as medidas oportunas para corrigir esta situação com o fim de ter o hidrante indicado em correcta situação de operatividad para ser usado por nosso pessoal quando seja necessário.
+LANG_CARTAS_TEXTO6,Para qualquer aclaración pode contactar com este Consórcio no telefone 922-533-487.
+LANG_CARTAS_TEXTO7,Atenciosamente
+LANG_CARTAS_TEXTO8,Joaquín Feliciano
+LANG_CARTAS_TEXTO9,Gerente
+LANG_CARTAS_TEXTO10,Consorcio de Bomberos de Tenerife
+LANG_HIDRANTES_CARTAS_NUM,Nº Comentários
+LANG_DASH_NO_CARTAS,Não há cartas pendentes de fechar
+LANG_DASH_NO_CARTAS2,Não há cartas pendentes de verificar
+LANG_CARTAS_TITLE,Cartas
+LANG_CARTAS_GENERARCARTA,Gerar&nbsp;Carta
+LANG_CARTAS_PREVIEWCARTA,Previsualizar Carta
+LANG_CARTAS_EDITAR,Editar&nbsp;Carta
+LANG_CARTAS_EN,En S/C de Tenerife, a
+
+LANG_CARTAS_CONSORCIO,Consorcio de Bomberos de Tenerife
+LANG_CARTAS_DIR,Avda. Anaga nº 11, entreplanta
+LANG_CARTAS_CP_LOCALIDAD,38001 - Santa Cruz de Tenerife
+LANG_CARTAS_ZONA,Islas Canarias - España
+LANG_CARTAS_TELEFONO,Teléfono: 922 533 487
+LANG_CARTAS_FAX,Fax: 922 533 494
+
+/INFORMES*/
+LANG_HEADER_TAB_INFORMES,Relatórios
+LANG_HIDRANTES_INFORMES_VOLVER,Voltar a relatórios
+
+/PENDIENTES*/
+LANG_HEADER_TAB_PENDIENTES,Hidrantes pendentes de revisar
+LANG_HIDRANTES_BUSCAR_PARQUE, Seleccione parque
+LANG_HIDRANTES_FECHAREVISION,Data&nbsp;Última&nbsp;Revisão
+LANG_HIDRANTES_ACTFECHAREVISION,Actualizar&nbsp;Data&nbsp;Revisão
+
+/LISTADO DE HISTORICO DE CARTAS*/
+LANG_HISTORICO_TITLE_LIST,Histórico de Cartas
+
+/EXCEL*/
+LANG_EXCEL_COMENTARIOS,Incluir comentários
+LANG_EXCEL_TITLE1,Listagem de hidrantes por município
+LANG_EXCEL_TITLE2,Listagem de hidrantes por data de comentários
+LANG_EXCEL_TITLE3,Listagem de cartas por município
+LANG_EXCEL_TITLE4,Listagem de cartas por código de hidrante
+LANG_EXCEL_TITLE5,Listagem de hidrantes por código de hidrante
+
+LANG_LISTADO_TITLE_VOLVER,Voltar a listagem de cartas
+

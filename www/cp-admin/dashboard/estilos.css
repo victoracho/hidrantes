@@ -1,0 +1,687 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p,
+blockquote, pre, a, abbr, acronym, address, big,
+cite, code, del, dfn, em, font, img,
+ins, kbd, q, s, samp, small, strike,
+strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+center, u, b, i {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   outline: 0;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 12px;
+   font-family: Verdana, Arial, Helvetica, sans-serif;
+   vertical-align: baseline
+}
+
+body {
+   line-height: 1
+}
+
+:focus {
+   outline: 0
+}
+
+table {
+   border-collapse: collapse;
+   border-spacing: 0
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+   content: ""
+}
+
+blockquote, q {
+   quotes: "" ""
+}
+
+input, textarea {
+   margin: 0;
+   padding: 0
+}
+
+hr {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   color: #000;
+   background-color: #000;
+   height: 1px
+}
+
+h4{
+	text-align:left;
+	font: 2em Arial,Verdana,sans-serif;
+}
+
+#clear{
+clear:both;
+}
+/**********************************FIN RESET*****************************/
+body{
+background:#e6f1f7 url(http://prehidrantes.bomberostenerife.com/cp-admin/dashboard/images/background.jpg) repeat-x;
+line-height:normal;
+} 
+
+#wrap{
+margin:0 auto;
+margin-top:10px;
+width:992px;
+}
+
+#header{
+	background:#0d4787;
+	width:992px;
+	height:48px;
+	padding-top:16px;
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+	margin-bottom:10px;
+}
+
+#header p{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:24px;
+	color:#FFF;
+	width:992px;
+	text-align:center;
+}
+
+#foto{
+	background:url(http://prehidrantes.bomberostenerife.com/cp-admin/dashboard/images/foto.jpg) no-repeat;
+	width:952px;
+	height:170px;
+	padding:10px 20px 0px 20px;
+}
+
+#fotologos{
+	float:right;
+	margin-top:25px;
+}
+#fotologos img{
+	vertical-align:middle;
+}
+
+
+#nombre{
+	background:#0d4787;
+	margin-top:10px;
+	width:992px;
+	height:36px;
+	padding-top:8px;
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+	margin-bottom:10px;
+}
+
+#nombre p{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:20px;
+	color:#FFF;
+	width:992px;
+	text-align:center;
+}
+
+
+#menu{
+	width:992px;
+	height:32px;
+}
+
+#barra{
+	background:#9e191c;
+	width:992px;
+	height:32px;
+}
+
+#barra a{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#fff;
+	text-decoration:none;
+	padding:6px 12px 0px 12px;
+	border-left:1px solid #fff;
+	height:26px;
+	display:inline-block;
+}
+
+#barra a:first-child{
+	border-left:none;
+}
+
+#barra a:hover{
+	color:#fff;
+	background-color:#0d4787;
+	/*padding-top:7px;
+	padding-bottom:9px;*/
+}
+
+#barra a#current{
+	color:#fff;
+	background-color:#0d4787;
+	/*padding-top:7px;
+	padding-bottom:9px;*/
+}
+
+#contenido{
+background:#ffffff;
+width:975px;
+padding-left:17px;
+color:#666;
+text-align:justify;
+padding-bottom:20px;
+margin-top:10px;
+}
+
+#content{
+	width:958px;
+	padding-right:17px;
+}
+
+#interior{
+background:#ffffff;
+width:958px;
+padding-left:17px;
+padding-right:17px;
+color:#666;
+text-align:justify;
+padding-bottom:20px;
+}
+
+#izquierda-home{
+width:959px;
+float:left;
+padding-right:34px;
+padding-top:10px;
+}
+
+#derecha-home{
+width:257px;
+float:left;
+}
+
+
+#izquierda{
+width:523px;
+float:left;
+padding-right:34px;
+padding-top:10px;
+}
+
+#derecha{
+width:399px;
+float:left;
+}
+
+
+#caja{
+width:227px;
+padding-left:15px;
+padding-right:15px;
+padding-top:17px;
+background:#f6f5f3;
+color:#666666;
+margin-bottom:27px;
+}
+
+.textoazul{
+list-style-image:url(http://prehidrantes.bomberostenerife.com/cp-admin/dashboard/images/flechas.gif);
+list-style-position:inside;
+line-height:25px;
+color:#006699;
+}
+
+.textogris{
+list-style-image:url(http://prehidrantes.bomberostenerife.com/cp-admin/dashboard/images/flecha-azul.gif);
+list-style-position:inside;
+line-height:25px;
+color:#666666;
+}
+
+#pie{
+width:975px;
+height:30px;
+padding-left:17px;
+padding-top:10px;
+background:#FFFFFF;
+margin-top:15px;
+text-align:center;
+margin-bottom:15px;
+}
+
+/****************************galer�a de im�genes**************************************/
+#galleryLoader{
+	background:url(http://prehidrantes.bomberostenerife.com/cp-admin/dashboard/images/load.gif) 45% 50% no-repeat;
+	text-align:center;
+	margin:0 auto;
+	width:470px;
+}
+
+.picture{
+width:470px !important;
+height:365px !important;
+}
+
+.thumb{
+float:left;
+margin-top:3px;
+margin-left:3px;
+}
+
+#thumb{
+  height:100px;
+  width:470px;
+  display:block;
+  position:relative;
+  text-align:center;
+  margin:0 auto;
+  
+}
+
+#financiacion{
+background:url(http://prehidrantes.bomberostenerife.com/cp-admin/dashboard/images/banner-publi.gif) no-repeat;
+width:613px;
+height:27px;
+margin-top:25px;
+padding-top:65px;
+padding-left:77px;
+}
+#financiacion a{
+color:#999;
+font-weight:bold;
+text-decoration:none;
+
+}
+
+#content .table-parte {
+        /*width:90%;
+        max-width:90%;
+        margin-top: 20px;
+        min-width:90%;
+        margin-right: 20px;*/
+}
+
+#content .table-parte  th {
+        border-left: 1px solid #fff;
+        padding: .3em .3em .3em .7em;
+        background: #a7bdd5;
+        color: #fff;
+        font-size: 1.1em;
+        font-weight:bold;
+}
+
+#content .table-parte  td {
+        border-bottom: 1px solid #ddd;
+        border-top: 1px solid #ddd;
+        padding: .3em .7em;
+        font-size: 1.1em;
+}	
+
+#content .table-parte td{
+        text-align:left;
+}
+        
+#content #introduccion {
+        min-height:170px;
+        min-width:90%;
+}
+
+#content td.title {
+	background-color:#f1f1f1;
+	font-weight:bold;
+	text-align:left;
+	width:10%;
+}
+
+#content span.title {
+	background-color:#f1f1f1;
+	padding:5px;
+	font-weight:bold;
+	text-align:left;
+	width:10%;    
+}
+
+#content label.title {
+/*	background-color:#f1f1f1;*/
+	font-weight:bold;
+	text-align:left;
+	width:10%;    
+}
+
+
+@font-face {
+	font-family: 'Tekton Pro';
+	src: url('../fonts/TektonPro-Bold.otf') format("OpenType");
+	font-style: normal;
+	font-weight: bold;
+}
+
+
+h2 {
+	font-family: Tekton Pro, sans-serif;
+    font-size: 26px;
+    margin: 10px 0 10px 0;
+    margin-right:20px;
+	color:#077ab0;
+}
+
+h2.title {
+    font-weight: bold;    
+}
+
+#content p {
+	line-height:1.3;
+}
+
+#content .cuadro_texto_large {
+    max-width: 89%;
+    min-width: 89%;
+    width: 89%;
+    height: 80px;
+    min-height: 80px;
+	text-align: justify;
+}
+
+#content .cuadro_texto {
+    max-width: 45%;
+    min-width: 45%;
+    width: 45%;
+	text-align: justify;
+}
+
+#content h3 {
+	font-family: Tekton Pro, sans-serif;
+    margin: 40px;
+    font-size:24px;
+	color:#077ab0;
+}
+
+#content .imagenes {
+    margin-left: 70px;
+}
+
+#content .imagenes .img {
+  margin:2px;
+  border:1px solid #0000ff;
+  height:150px;
+  min-height: 100px;
+  max-height: 200px;
+  width:auto;
+  float:left;
+  text-align:center;    
+}
+
+#content .imagenes .img img {
+  display:inline;
+  margin:3px;
+  border:1px solid #ffffff;    
+  max-height: 80px;
+  max-width: 110px;
+}
+
+#content .imagenes .img .desc {
+  text-align:center;
+  font-weight:normal;
+  width:120px;
+  max-height: 58px;
+  overflow: hidden;
+  margin:2px;    
+}
+
+
+#content .imagenes .polaroid {
+    
+  height:150px;
+  min-height: 100px;
+  max-height: 200px;
+  float:left;
+  text-align:center;      
+    
+  position: relative;
+}
+
+#content .imagenes .polaroid img {
+  border: 10px solid #EAE7E5;
+  min-height: 80px;
+  min-width: 110px;
+  max-width: 110px;
+  max-height: 80px;
+  margin: 3px;
+  display:inline;
+  border-bottom: 45px solid #EAE7E5;
+  -webkit-box-shadow: 3px 3px 3px #777;
+     -moz-box-shadow: 3px 3px 3px #777;
+          box-shadow: 3px 3px 3px #777;    
+}
+
+#content .imagenes .polaroid p {
+  width: 120px;
+  margin-top: -30px;
+  font: 400 18px/1 'Kaushan Script', cursive;
+  color: #888;    
+}
+
+
+ul.galeria {
+    list-style-type:none;
+}
+
+ul.galeria li {
+    float:left;
+    position: relative;
+}
+
+ul.galeria li a.foto_galeria {
+    float: left;
+    background: #eee;
+    width: 230px;
+    height:230px;
+    -webkit-box-shadow: 0px 2px 10px #333;
+    -moz-box-shadow: 0px 2px 10px #333;
+    box-shadow: 0px 2px 10px #333;   
+    position: relative;        
+    margin: 20px;
+	text-align:center;
+}
+
+ul.galeria li a.foto_galeria:hover {
+    -webkit-box-shadow: 3px 5px 10px #333;
+    -moz-box-shadow: 3px 5px 10px #333;
+    box-shadow: 3px 5px 10px #333;   
+}
+
+ul.galeria li a.foto_galeria img {
+    margin-top: 16px;
+    max-width: 200px;
+    max-height: 150px;
+}
+
+ul.galeria li p {
+  font-size: 1.2em;
+  font: cursive;
+  color: #888; 
+  top: 190px;
+  text-align: center;
+  margin-left: 25px;
+  position:absolute;
+  width: 210px;
+}
+
+
+ul.galeria .galeriapdf{
+	margin-left:-60px;
+	margin-top:220px;
+	position:absolute;
+}
+
+.head-button a{
+	text-decoration:none;
+}
+.head-button a:hover{
+	text-decoration:underline!Important;
+}
+/*.head-button a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.head-button {
+    display: inline-block;
+    margin: 20px 5px 5px 5px;
+    padding: 10px 20px;
+    background: #2089CD;
+    background: -moz-linear-gradient(
+            top,
+            #28ADF0 0%,
+            #0D4787);
+    background: -webkit-gradient(
+            linear, left top, left bottom, 
+            from(#28ADF0),
+            to(#0D47870));
+
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border: 5px solid #9E191C;
+    -moz-box-shadow:
+            0px 1px 3px rgba(000,000,000,0.5),
+            inset 0px 0px 1px rgba(255,255,255,0.7);
+    -webkit-box-shadow:
+            0px 1px 3px rgba(000,000,000,0.5),
+            inset 0px 0px 1px rgba(255,255,255,0.7);
+    text-shadow:
+            0px -1px 0px rgba(000,000,000,0.4),
+            0px 1px 0px rgba(255,255,255,0.3);
+			
+	text-align:left!important;
+}
+*/
+table#example tr td{
+	padding:10px;
+}
+
+table#example tr td a{
+	color:#333;
+	text-decoration:none!important;
+}
+
+table#example tr td a:hover{
+	text-decoration:underline!important;
+}
+
+table#example{
+	margin-bottom:20px;
+}
+
+#iconos{
+	padding-top:20px;
+	margin-bottom:20px;
+}
+
+#iconos a{
+	text-decoration:none!important;
+	color:#333;
+}
+
+#iconos a:hover{
+	text-decoration:underline!important;
+}
+
+
+/* Google Maps */
+
+.mapas {
+    backgorund: #FFFFFF;
+    height: 300px;
+    padding-left: 70px;
+}
+
+#contentmap
+{
+    display:inline;
+    width:600px;
+}
+#map_canvas
+{
+    display:block;
+    float:left;
+    width:400px;
+    height:300px;
+    margin-right:5px;
+}
+#pano
+{
+    float:left;
+    display:block;
+    width:400px;
+    height:300px;
+}
+
+.mail_form {
+	width: 600px;
+	margin-top: 25px;
+        margin-right: 25px;
+}
+
+.mail_form input, .mail_form textarea {
+	padding: 5px;
+	width: 471px;
+	font-family: Helvetica, sans-serif;
+	font-size: 1.4em;
+	margin: 0px 0px 10px 0px;
+	border: 2px solid #ccc;
+}
+
+.mail_form textarea {
+	height: 90px;
+        resize:none;
+}
+
+.mail_form textarea:focus, .mail_form input:focus {
+	border: 2px solid #9E191C;
+}
+
+.mail_form input.submit-button {
+	width: 100px;
+	float: right;
+}
+
+.mail_form label {
+    float: left;
+    text-align: right;
+    margin-right: 15px;
+    width: 100px;
+    padding-top: 5px;
+    font-size: 1.4em;
+}
+
+.mail_form label.error {
+   background-image: url(http://prehidrantes.bomberostenerife.com/cp-admin/dashboard/images/b_drop.ng);
+   background-repeat: no-repeat;
+   background-position: 1px 10px;
+   color: #900;
+}
+
+.blockUI_message {
+    padding-top: 10px;
+   min-height: 30px;
+   background-image: url(http://prehidrantes.bomberostenerife.com/cp-admin/dashboard/images/busy.gif);
+   background-repeat: no-repeat;
+   background-position: 160px 11px;    
+}
+
+p.success {
+    background: green;
+}
+
+p.error {
+    background: red;
+}

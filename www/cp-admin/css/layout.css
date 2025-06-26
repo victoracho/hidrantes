@@ -1,0 +1,24 @@
+/*** Estructura de las paginas ***/
+
+/*------------------------------------- WRAPPER -------------------------------------*/
+#wrapper { text-align: left }
+#login #wrapper { text-align: center }
+
+/*------------------------------------- HEADER -------------------------------------*/
+#header {
+	height: 138px;
+	position: relative;
+	padding: 0 25px;
+	background: url('../images/bkg-header.gif') left top no-repeat;
+}
+
+	.header-menu {
+		height: 185px !important;
+		background: url('../images/bkg-header-menu.gif') left top repeat-x !important;
+	}
+
+/*------------------------------------- CONTENT -------------------------------------*/
+#content {
+	position: relative;
+	padding: 30px 25px 40px 25px;
+}

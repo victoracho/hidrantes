@@ -1,0 +1,16 @@
+php_value session.cookie_domain ".bomberostenerife.com"
+php_value upload_max_filesize 67107840
+php_value post_max_size 67107840
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+AddOutputFilterByType DEFLATE text/html text/plain text/xml text/javascript text/css
+BrowserMatch ^Mozilla/4 gzip-only-text/html
+BrowserMatch ^Mozilla/4\.0[678] no-gzip
+BrowserMatch \bMSIE !no-gzip !gzip-only-text/html

@@ -1,0 +1,5246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+    <name>Highlighted Icon</name>
+    <description>Place your mouse over the icon to see it display the new icon</description>
+    <Style id="highlightPlacemark">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="normalPlacemark">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <StyleMap id="exampleStyleMap">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#normalPlacemark</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#highlightPlacemark</styleUrl>
+      </Pair>
+    </StyleMap>
+<Placemark>
+      <name>Codigo hidrante: 120001</name>
+	  <description>Municipio: Fasnia</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.42352,28.1959,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 120002</name>
+	  <description>Municipio: Fasnia</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.42333,28.19541,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 120003</name>
+	  <description>Municipio: Fasnia</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.4246,28.19611,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 120004</name>
+	  <description>Municipio: Fasnia</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.43956,28.23557,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 120005</name>
+	  <description>Municipio: Fasnia</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.44008,28.23573,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 120006</name>
+	  <description>Municipio: Fasnia</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.41426,28.22175,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 150001</name>
+	  <description>Municipio: Garachico</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.76417,28.37311,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 150002</name>
+	  <description>Municipio: Garachico</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.76407,28.37347,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 150003</name>
+	  <description>Municipio: Garachico</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.76457,28.37395,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 150004</name>
+	  <description>Municipio: Garachico</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.76449,28.37288,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 150006</name>
+	  <description>Municipio: Garachico</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.76618,28.37217,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 150007</name>
+	  <description>Municipio: Garachico</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.76695,28.37193,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 150008</name>
+	  <description>Municipio: Garachico</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.76735,28.37124,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 150009</name>
+	  <description>Municipio: Garachico</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.76776,28.3714,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 220001</name>
+	  <description>Municipio: Icod de los Vinos</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.72046,28.36705,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 220002</name>
+	  <description>Municipio: Icod de los Vinos</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.71937,28.36724,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 220003</name>
+	  <description>Municipio: Icod de los Vinos</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.71907,28.36739,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 220004</name>
+	  <description>Municipio: Icod de los Vinos</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.71759,28.36743,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230001</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.33018,28.56774,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230002</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.32894,28.56869,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230003</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.35108,28.55222,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230004</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.35083,28.55114,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230005</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.35155,28.55112,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230006</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.34977,28.55063,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230007</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.35078,28.54936,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230008</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.29429,28.54208,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230011</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.37819,28.49738,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230012</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.37736,28.49534,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230013</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.37759,28.49497,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230014</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.37733,28.49461,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230015</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.37689,28.49481,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230016</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.37216,28.49328,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230017</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.36431,28.49175,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230018</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.33334,28.49828,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230019</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.33226,28.49687,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230020</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.3318,28.49627,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380066</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.24859,28.4659,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230021</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.33093,28.49515,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230022</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.33093,28.49521,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230023</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.3303,28.49445,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380059</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.24885,28.4656,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230024</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.32788,28.49356,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230025</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.32698,28.49314,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230027</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.33533,28.48995,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230028</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.33503,28.48993,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230029</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.33438,28.48999,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230030</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.33229,28.4901,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230031</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.33205,28.49014,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230032</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.33024,28.49018,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230033</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.33188,28.48977,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230034</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.33169,28.48934,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230035</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.33167,28.49007,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230036</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.32723,28.4895,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230037</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.32601,28.49021,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230039</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.31936,28.49745,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230040</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.31234,28.49294,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230041</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.31249,28.49245,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230043</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.31388,28.49277,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230044</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.31572,28.49278,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230045</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.3168,28.49348,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230046</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.31341,28.48921,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230047</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.31335,28.48944,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230048</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.31451,28.48877,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230049</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.31433,28.4893,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230050</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.31626,28.49083,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230051</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.31668,28.48877,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230052</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.31704,28.49102,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230053</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.31783,28.49053,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230054</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.3182,28.48963,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230055</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.3195,28.49119,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230056</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.31909,28.49006,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230057</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.31996,28.49044,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230058</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.32057,28.49063,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 190026</name>
+	  <description>Municipio: Guia de Isora</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.82656,28.20539,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230059</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.31322,28.48785,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230060</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.31393,28.48726,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230061</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.31502,28.48771,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230062</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.31587,28.48746,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230063</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.31613,28.48681,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230064</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.31367,28.4853,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230065</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.31463,28.48576,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 190032</name>
+	  <description>Municipio: Guia de Isora</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.79656,28.24072,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230066</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.31659,28.48542,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230067</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.31699,28.48475,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230068</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.31705,28.48439,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230069</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.31743,28.48362,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230070</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.31347,28.48189,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 190035</name>
+	  <description>Municipio: Guia de Isora</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.79633,28.23584,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230071</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.31336,28.48121,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230072</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.31593,28.48221,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 190034</name>
+	  <description>Municipio: Guia de Isora</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.79366,28.23567,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230073</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.31766,28.48272,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230074</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.32044,28.48339,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230075</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.32639,28.48125,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230076</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.32464,28.48159,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230077</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.32329,28.48093,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230078</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.30833,28.47255,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 190015</name>
+	  <description>Municipio: Guia de Isora</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.82935,28.20174,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230079</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.31,28.47325,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230080</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.31027,28.47408,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230081</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.31032,28.47362,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230082</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.30243,28.46381,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230083</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.30789,28.46469,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230084</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.317,28.47177,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230085</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.31701,28.4694,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230086</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.31673,28.46714,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230087</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.31649,28.46569,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230088</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.31633,28.46489,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230089</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.31624,28.46344,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230090</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.31475,28.46149,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230091</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.31653,28.46292,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230092</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.31723,28.46309,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230093</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.31855,28.46344,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230094</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.31941,28.46367,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230095</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.31479,28.45796,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 190014</name>
+	  <description>Municipio: Guia de Isora</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.82827,28.20278,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230096</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.30894,28.45677,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230097</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.3092,28.45589,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230098</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.30918,28.45459,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230099</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.30813,28.45293,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230101</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.31542,28.45604,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230102</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.31578,28.45551,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230103</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.31639,28.45558,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 190012</name>
+	  <description>Municipio: Guia de Isora</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.82632,28.20143,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230104</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.28974,28.47604,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230105</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.28983,28.476,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230106</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.28899,28.47549,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230107</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.28899,28.47549,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230109</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.28254,28.47336,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 190020</name>
+	  <description>Municipio: Guia de Isora</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.82997,28.20438,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230110</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.28268,28.47293,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230111</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.28173,28.47174,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 190009</name>
+	  <description>Municipio: Guia de Isora</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.826819,28.199186,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230112</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.28349,28.47059,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230113</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.28304,28.46574,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 190019</name>
+	  <description>Municipio: Guia de Isora</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.83081,28.20368,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230114</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.2855,28.46764,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230115</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.28642,28.46688,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230116</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.28745,28.46679,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 190018</name>
+	  <description>Municipio: Guia de Isora</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.83177,28.20326,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230117</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.2872,28.46613,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 190017</name>
+	  <description>Municipio: Guia de Isora</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.83041,28.2031,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230118</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.28807,28.4653,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230119</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.28864,28.46473,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230120</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.28958,28.46394,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230121</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.2905,28.46299,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 230122</name>
+	  <description>Municipio: La Laguna</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.29211,28.46147,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 190007</name>
+	  <description>Municipio: Guia de Isora</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.82161,28.20027,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 190008</name>
+	  <description>Municipio: Guia de Isora</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.82535,28.19959,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 350001</name>
+	  <description>Municipio: San Miguel</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.611009,28.028472,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 350002</name>
+	  <description>Municipio: San Miguel</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.608401,28.02689,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 350003</name>
+	  <description>Municipio: San Miguel</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.60865,28.02771,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 350004</name>
+	  <description>Municipio: San Miguel</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.61014,28.02755,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 350005</name>
+	  <description>Municipio: San Miguel</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.6101,28.02844,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 350006</name>
+	  <description>Municipio: San Miguel</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.60914,28.02945,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 350007</name>
+	  <description>Municipio: San Miguel</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.60714,28.03423,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 350008</name>
+	  <description>Municipio: San Miguel</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.6052,28.03303,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 350009</name>
+	  <description>Municipio: San Miguel</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.60391,28.03267,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 350010</name>
+	  <description>Municipio: San Miguel</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.59836,28.03174,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 350011</name>
+	  <description>Municipio: San Miguel</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.603597,28.031075,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 350012</name>
+	  <description>Municipio: San Miguel</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.6039,28.03053,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 350013</name>
+	  <description>Municipio: San Miguel</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.60498,28.03114,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 350014</name>
+	  <description>Municipio: San Miguel</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.60584,28.03269,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 350015</name>
+	  <description>Municipio: San Miguel</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.60743,28.03228,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 350016</name>
+	  <description>Municipio: San Miguel</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.61118,28.03387,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 350017</name>
+	  <description>Municipio: San Miguel</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.61172,28.03245,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 350018</name>
+	  <description>Municipio: San Miguel</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.61045,28.03209,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 350019</name>
+	  <description>Municipio: San Miguel</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.61012,28.03069,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 350020</name>
+	  <description>Municipio: San Miguel</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.6111,28.03004,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 350021</name>
+	  <description>Municipio: San Miguel</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.6101,28.0344,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 350022</name>
+	  <description>Municipio: San Miguel</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.60619,28.0273,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 350023</name>
+	  <description>Municipio: San Miguel</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.60695,28.026563,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 350024</name>
+	  <description>Municipio: San Miguel</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.60448,28.0269,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 350025</name>
+	  <description>Municipio: San Miguel</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.603482,28.026425,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 350026</name>
+	  <description>Municipio: San Miguel</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.603796,28.02634,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 350027</name>
+	  <description>Municipio: San Miguel</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.600472,28.027912,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 350029</name>
+	  <description>Municipio: San Miguel</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.610996,28.025345,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 350030</name>
+	  <description>Municipio: San Miguel</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.60939,28.02469,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 350031</name>
+	  <description>Municipio: San Miguel</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.60751,28.02475,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 350032</name>
+	  <description>Municipio: San Miguel</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.60748,28.02593,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 350033</name>
+	  <description>Municipio: San Miguel</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.60684,28.026538,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 350034</name>
+	  <description>Municipio: San Miguel</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.609192,28.025779,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 350035</name>
+	  <description>Municipio: San Miguel</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.60775,28.079772,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 350036</name>
+	  <description>Municipio: San Miguel</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.61914,28.05899,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 350037</name>
+	  <description>Municipio: San Miguel</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.61782,28.05933,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 350038</name>
+	  <description>Municipio: San Miguel</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.61534,28.05997,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 350039</name>
+	  <description>Municipio: San Miguel</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.62301,28.05589,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 350040</name>
+	  <description>Municipio: San Miguel</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.62067,28.05648,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 350041</name>
+	  <description>Municipio: San Miguel</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.61771,28.05731,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 350042</name>
+	  <description>Municipio: San Miguel</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.61475,28.05799,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 350044</name>
+	  <description>Municipio: San Miguel</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.62298,28.0543,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 350045</name>
+	  <description>Municipio: San Miguel</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.62169,28.05341,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 350046</name>
+	  <description>Municipio: San Miguel</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.61973,28.05395,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 350047</name>
+	  <description>Municipio: San Miguel</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.61784,28.054388,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 350048</name>
+	  <description>Municipio: San Miguel</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.61596,28.0549,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 350049</name>
+	  <description>Municipio: San Miguel</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.61395,28.05541,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 350050</name>
+	  <description>Municipio: San Miguel</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.62329,28.05192,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 350051</name>
+	  <description>Municipio: San Miguel</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.62128,28.05235,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 350052</name>
+	  <description>Municipio: San Miguel</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.61956,28.05281,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 350053</name>
+	  <description>Municipio: San Miguel</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.61749,28.05333,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 350054</name>
+	  <description>Municipio: San Miguel</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.61557,28.05382,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 350055</name>
+	  <description>Municipio: San Miguel</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.61357,28.05425,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 350056</name>
+	  <description>Municipio: San Miguel</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.61304,28.05295,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 350057</name>
+	  <description>Municipio: San Miguel</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.61493,28.05224,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 350058</name>
+	  <description>Municipio: San Miguel</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.61688,28.05191,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 350059</name>
+	  <description>Municipio: San Miguel</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.6192,28.05152,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 350060</name>
+	  <description>Municipio: San Miguel</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.62104,28.05124,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 350061</name>
+	  <description>Municipio: San Miguel</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.60689,28.08336,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 350062</name>
+	  <description>Municipio: San Miguel</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.60899,28.05518,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 350063</name>
+	  <description>Municipio: San Miguel</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.60893,28.05388,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 350064</name>
+	  <description>Municipio: San Miguel</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.60639,28.05391,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 350065</name>
+	  <description>Municipio: San Miguel</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.61032,28.05294,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 350066</name>
+	  <description>Municipio: San Miguel</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.62065,28.09673,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 350067</name>
+	  <description>Municipio: San Miguel</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.61998,28.09811,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 350068</name>
+	  <description>Municipio: San Miguel</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.61568,28.09883,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 350069</name>
+	  <description>Municipio: San Miguel</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.61604,28.09646,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 350070</name>
+	  <description>Municipio: San Miguel</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.61243,28.09756,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380071</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.25103,28.46574,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380015</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.249,28.46275,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380054</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.25125,28.46494,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380019</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.25243,28.46094,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380045</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.24826,28.46479,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380046</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.24892,28.46472,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380025</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.25317,28.46166,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380030</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.25236903,28.46224465,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380291</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.25447971,28.46973,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380031</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.25214543,28.46233696,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380060</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.25024,28.46541,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380091</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.25015,28.46702,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380070</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.25052,28.46569,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380069</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.25033,28.46568,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 520006</name>
+	  <description>Municipio: Vilaflor</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.68272,28.12813,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 190011</name>
+	  <description>Municipio: Guia de Isora</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.82692,28.2012,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380076</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.24839,28.46642,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 190022</name>
+	  <description>Municipio: Guia de Isora</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.83064,28.20498,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 190023</name>
+	  <description>Municipio: Guia de Isora</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.83079,28.20642,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 190024</name>
+	  <description>Municipio: Guia de Isora</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.83259,28.2061,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 190025</name>
+	  <description>Municipio: Guia de Isora</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.834,28.20639,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 190033</name>
+	  <description>Municipio: Guia de Isora</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.79898,28.24113,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 190013</name>
+	  <description>Municipio: Guia de Isora</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.82774,28.20082,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 190021</name>
+	  <description>Municipio: Guia de Isora</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.82981,28.20611,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 190016</name>
+	  <description>Municipio: Guia de Isora</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.831216,28.202122,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 190010</name>
+	  <description>Municipio: Guia de Isora</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.82598,28.20077,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 350071</name>
+	  <description>Municipio: San Miguel</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.625829,28.096481,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 350028</name>
+	  <description>Municipio: San Miguel</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.605946,28.033372,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280059</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.546731,28.415751,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380109</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.24919,28.4685,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380108</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.24935,28.46846,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380119</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.24935,28.47053,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380304</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.24849,28.47006,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380139</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.24863,28.4713,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 190075</name>
+	  <description>Municipio: Guia de Isora</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.83389,28.22649,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 190006</name>
+	  <description>Municipio: Guia de Isora</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.8002,28.17918,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 190031</name>
+	  <description>Municipio: Guia de Isora</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.78324,28.22604,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 190036</name>
+	  <description>Municipio: Guia de Isora</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.78401,28.21826,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 190037</name>
+	  <description>Municipio: Guia de Isora</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.78241,28.21581,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 190048</name>
+	  <description>Municipio: Guia de Isora</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.77596,28.21313,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 190053</name>
+	  <description>Municipio: Guia de Isora</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.81363,28.18224,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 190057</name>
+	  <description>Municipio: Guia de Isora</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.81757,28.18239,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 190058</name>
+	  <description>Municipio: Guia de Isora</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.81954,28.18511,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380115</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.25184,28.46845,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380141</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.2495,28.47092,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380305</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.2574,28.4635,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380204</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.25406,28.4632,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380195</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.2594,28.46102,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380306</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.25728,28.46574,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380307</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.25827,28.46591,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380237</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.25812,28.46623,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 220005</name>
+	  <description>Municipio: Icod de los Vinos</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.71707,28.36797,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 100001</name>
+	  <description>Municipio: Buenavista del Norte</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.85363,28.37481,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 100002</name>
+	  <description>Municipio: Buenavista del Norte</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.85466,28.37355,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 100003</name>
+	  <description>Municipio: Buenavista del Norte</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.85125,28.37307,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 100004</name>
+	  <description>Municipio: Buenavista del Norte</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.85176,28.37283,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 100005</name>
+	  <description>Municipio: Buenavista del Norte</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.85181,28.37265,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 100006</name>
+	  <description>Municipio: Buenavista del Norte</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.85213,28.3725,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 100007</name>
+	  <description>Municipio: Buenavista del Norte</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.85316,28.37238,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 100008</name>
+	  <description>Municipio: Buenavista del Norte</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.85224,28.37156,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 100009</name>
+	  <description>Municipio: Buenavista del Norte</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.85116,28.37192,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 100010</name>
+	  <description>Municipio: Buenavista del Norte</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.84998,28.3723,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 100011</name>
+	  <description>Municipio: Buenavista del Norte</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.85079,28.37108,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 100012</name>
+	  <description>Municipio: Buenavista del Norte</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.85293,28.37079,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 100013</name>
+	  <description>Municipio: Buenavista del Norte</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.84949,28.37063,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 100014</name>
+	  <description>Municipio: Buenavista del Norte</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.84786,28.36951,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 100015</name>
+	  <description>Municipio: Buenavista del Norte</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.85445,28.367,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 100018</name>
+	  <description>Municipio: Buenavista del Norte</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.85086,28.37124,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 440001</name>
+	  <description>Municipio: El Tanque</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.77988,28.35653,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 440002</name>
+	  <description>Municipio: El Tanque</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.77928,28.35615,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 440003</name>
+	  <description>Municipio: El Tanque</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.77876,28.35582,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 440004</name>
+	  <description>Municipio: El Tanque</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.77702,28.35679,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 440005</name>
+	  <description>Municipio: El Tanque</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.79204,28.34733,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 440006</name>
+	  <description>Municipio: El Tanque</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.78535,28.34739,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 440007</name>
+	  <description>Municipio: El Tanque</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.80509,28.32748,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 440008</name>
+	  <description>Municipio: El Tanque</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.78549,28.32938,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 440009</name>
+	  <description>Municipio: El Tanque</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.77675,28.34079,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 440010</name>
+	  <description>Municipio: El Tanque</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.79197,28.33387,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 440011</name>
+	  <description>Municipio: El Tanque</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.79186,28.32988,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 150010</name>
+	  <description>Municipio: Garachico</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.79064,28.371,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 150011</name>
+	  <description>Municipio: Garachico</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.79151,28.37233,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 150014</name>
+	  <description>Municipio: Garachico</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.79117,28.37069,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 180001</name>
+	  <description>Municipio: La Guancha</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.65262,28.38089,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 180002</name>
+	  <description>Municipio: La Guancha</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.65281,28.37935,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 180003</name>
+	  <description>Municipio: La Guancha</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.65286,28.3789,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 180004</name>
+	  <description>Municipio: La Guancha</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.65223,28.37832,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 180006</name>
+	  <description>Municipio: La Guancha</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.65183,28.37457,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 180007</name>
+	  <description>Municipio: La Guancha</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.65135,28.3742,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 460034</name>
+	  <description>Municipio: Tegueste</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.33497,28.51915,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 460033</name>
+	  <description>Municipio: Tegueste</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.33588,28.51918,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 460032</name>
+	  <description>Municipio: Tegueste</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.33652,28.51924,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 460036</name>
+	  <description>Municipio: Tegueste</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.34977,28.52522,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 460037</name>
+	  <description>Municipio: Tegueste</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.34999,28.52495,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 460038</name>
+	  <description>Municipio: Tegueste</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.3501,28.52481,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 460035</name>
+	  <description>Municipio: Tegueste</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.34671,28.52493,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 460031</name>
+	  <description>Municipio: Tegueste</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.33142,28.52528,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 460025</name>
+	  <description>Municipio: Tegueste</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.34298,28.52195,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 460026</name>
+	  <description>Municipio: Tegueste</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.3431,28.52178,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 460027</name>
+	  <description>Municipio: Tegueste</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.34332,28.52157,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 460028</name>
+	  <description>Municipio: Tegueste</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.34353,28.52138,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 460029</name>
+	  <description>Municipio: Tegueste</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.34379,28.52114,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 460030</name>
+	  <description>Municipio: Tegueste</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.33891,28.52505,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 460015</name>
+	  <description>Municipio: Tegueste</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.3389,28.52119,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 460016</name>
+	  <description>Municipio: Tegueste</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.33916,28.52109,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 460018</name>
+	  <description>Municipio: Tegueste</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.33921,28.52057,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 460019</name>
+	  <description>Municipio: Tegueste</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.33918,28.52033,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 460020</name>
+	  <description>Municipio: Tegueste</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.33831,28.52124,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 460021</name>
+	  <description>Municipio: Tegueste</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.33953,28.52122,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 460022</name>
+	  <description>Municipio: Tegueste</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.3402,28.52117,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 460023</name>
+	  <description>Municipio: Tegueste</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.34022,28.52172,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 460024</name>
+	  <description>Municipio: Tegueste</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.3399,28.52239,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 460007</name>
+	  <description>Municipio: Tegueste</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.33711,28.52183,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 460008</name>
+	  <description>Municipio: Tegueste</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.33656,28.52173,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 460009</name>
+	  <description>Municipio: Tegueste</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.33652,28.52249,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 460010</name>
+	  <description>Municipio: Tegueste</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.33673,28.52298,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 460012</name>
+	  <description>Municipio: Tegueste</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.33607,28.52447,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 460013</name>
+	  <description>Municipio: Tegueste</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.32131,28.51838,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 460014</name>
+	  <description>Municipio: Tegueste</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.31487,28.51889,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 460001</name>
+	  <description>Municipio: Tegueste</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.36273,28.51635,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 460002</name>
+	  <description>Municipio: Tegueste</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.36095,28.5138,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 460003</name>
+	  <description>Municipio: Tegueste</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.35597,28.49609,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 460004</name>
+	  <description>Municipio: Tegueste</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.35528,28.49554,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 460005</name>
+	  <description>Municipio: Tegueste</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.3528,28.49018,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 460006</name>
+	  <description>Municipio: Tegueste</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.35225,28.49057,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 390001</name>
+	  <description>Municipio: Santa Ursula</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.503732,28.418073,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 390002</name>
+	  <description>Municipio: Santa Ursula</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.50364,28.417615,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 390003</name>
+	  <description>Municipio: Santa Ursula</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.500791,28.415736,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 390004</name>
+	  <description>Municipio: Santa Ursula</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.500586,28.41636,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 390005</name>
+	  <description>Municipio: Santa Ursula</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.499596,28.417391,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 390006</name>
+	  <description>Municipio: Santa Ursula</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.502501,28.410677,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 390007</name>
+	  <description>Municipio: Santa Ursula</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.494046,28.413417,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 390009</name>
+	  <description>Municipio: Santa Ursula</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.493234,28.415229,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 390018</name>
+	  <description>Municipio: Santa Ursula</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.492079,28.41603,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 390008</name>
+	  <description>Municipio: Santa Ursula</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.498693,28.41958,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 390017</name>
+	  <description>Municipio: Santa Ursula</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.497953,28.420818,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 390016</name>
+	  <description>Municipio: Santa Ursula</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.498165,28.420965,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 390015</name>
+	  <description>Municipio: Santa Ursula</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.498653,28.420841,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 390011</name>
+	  <description>Municipio: Santa Ursula</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.499962,28.422202,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 390012</name>
+	  <description>Municipio: Santa Ursula</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.499402,28.422347,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 390013</name>
+	  <description>Municipio: Santa Ursula</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.499331,28.422279,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 390014</name>
+	  <description>Municipio: Santa Ursula</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.499449,28.421822,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 390010</name>
+	  <description>Municipio: Santa Ursula</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.500834,28.423254,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 390020</name>
+	  <description>Municipio: Santa Ursula</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.499266,28.42618,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 390019</name>
+	  <description>Municipio: Santa Ursula</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.500289,28.427694,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 390021</name>
+	  <description>Municipio: Santa Ursula</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.497744,28.424906,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 390022</name>
+	  <description>Municipio: Santa Ursula</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.491083,28.425983,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 390023</name>
+	  <description>Municipio: Santa Ursula</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.496478,28.433987,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 390024</name>
+	  <description>Municipio: Santa Ursula</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.495436,28.435153,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 390025</name>
+	  <description>Municipio: Santa Ursula</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.495596,28.43706,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 390026</name>
+	  <description>Municipio: Santa Ursula</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.494741,28.436087,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 390027</name>
+	  <description>Municipio: Santa Ursula</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.492984,28.433527,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 390028</name>
+	  <description>Municipio: Santa Ursula</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.492303,28.431761,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 390029</name>
+	  <description>Municipio: Santa Ursula</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.490597,28.430595,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 390033</name>
+	  <description>Municipio: Santa Ursula</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.489055,28.429326,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 390030</name>
+	  <description>Municipio: Santa Ursula</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.491125,28.429515,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 390031</name>
+	  <description>Municipio: Santa Ursula</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.490163,28.428914,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 390032</name>
+	  <description>Municipio: Santa Ursula</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.490446,28.428225,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 390034</name>
+	  <description>Municipio: Santa Ursula</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.487591,28.428678,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 390035</name>
+	  <description>Municipio: Santa Ursula</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.487359,28.428876,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 390036</name>
+	  <description>Municipio: Santa Ursula</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.486983,28.429181,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280001</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.556005,28.41367,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280002</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.555696,28.413225,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280003</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.554812,28.413161,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280004</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.554547,28.412785,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280005</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.553423,28.41245,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280006</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.551853,28.412445,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280007</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.54888,28.409653,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280008</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.553843,28.417362,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280009</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.553972,28.417363,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280010</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.55412,28.41633,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280011</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.552831,28.4171,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280012</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.552799,28.416662,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280013</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.552772,28.416135,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280014</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.552722,28.41589,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280015</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.551587,28.417016,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280016</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.551925,28.416858,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280017</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.551816,28.416278,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280018</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.550986,28.415375,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280019</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.550982,28.414772,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280020</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.55095,28.41463,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280021</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.550675,28.417265,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280022</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.5496,28.417734,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280023</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.549589,28.417679,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280024</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.549047,28.41783,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280025</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.548379,28.417717,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280026</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.548097,28.4173,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280027</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.547791,28.417219,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280028</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.547424,28.416839,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280029</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.549921,28.416669,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280030</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.549782,28.416399,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280031</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.549594,28.416045,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280032</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.549614,28.415814,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280033</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.549413,28.415575,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280034</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.546937,28.416803,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280035</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.546123,28.416977,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280036</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.546494,28.416742,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280037</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.548536,28.413985,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280038</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.548117,28.414025,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280039</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.54782,28.413969,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280040</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.547546,28.414013,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280041</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.547436,28.41378,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280042</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.547828,28.413692,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280043</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.546673,28.413933,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280044</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.549278,28.412715,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280045</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.549276,28.413077,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280046</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.548833,28.413066,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280047</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.54865,28.413333,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280048</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.548401,28.413551,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280049</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.548715,28.413087,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280050</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.548418,28.413415,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280051</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.54823,28.413437,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280052</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.548014,28.413463,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280053</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.54762,28.413499,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280054</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.548058,28.413128,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280055</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.547779,28.413112,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280056</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.548532,28.412893,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280057</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.548256,28.412956,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280058</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.547815,28.41303,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 350072</name>
+	  <description>Municipio: San Miguel</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.601422,28.027274,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280060</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.546207,28.415803,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280061</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.546411,28.415621,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280062</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.546433,28.415209,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280063</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.546206,28.4152,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280064</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.546059,28.415077,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280065</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.545705,28.415237,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280066</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.545303,28.415327,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280067</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.545148,28.415806,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280068</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.545247,28.415979,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280069</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.545405,28.416176,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280070</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.54551,28.41605,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280071</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.544909,28.416258,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280072</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.5443,28.415544,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280073</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.543685,28.415824,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280074</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.543539,28.415493,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280075</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.543175,28.415745,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280076</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.542801,28.416034,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280077</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.544384,28.416169,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280078</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.544036,28.41627,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280079</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.544489,28.416654,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280080</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.544858,28.41653,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280081</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.545086,28.416729,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280082</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.545002,28.417125,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280083</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.54391,28.417134,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280084</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.543723,28.417284,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280085</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.543501,28.417817,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280086</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.543411,28.417338,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280087</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.543178,28.417747,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280088</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.543722,28.418084,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280089</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.544102,28.418369,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280090</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.542596,28.418971,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280091</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.542472,28.418335,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280092</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.542353,28.418232,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280093</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.541909,28.418029,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280094</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.541796,28.417507,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280095</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.543002,28.417502,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280096</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.542513,28.417285,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280097</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.542156,28.416995,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280098</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.542536,28.416725,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280099</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.542981,28.416378,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280100</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.540705,28.416813,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280191</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.546134,28.417021,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 340012</name>
+	  <description>Municipio: San Juan de la Rambla</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.647471,28.393989,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 340013</name>
+	  <description>Municipio: San Juan de la Rambla</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.647162,28.393974,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 340014</name>
+	  <description>Municipio: San Juan de la Rambla</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.649673,28.394002,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 340015</name>
+	  <description>Municipio: San Juan de la Rambla</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.649884,28.393934,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 340016</name>
+	  <description>Municipio: San Juan de la Rambla</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.649905,28.393717,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 340017</name>
+	  <description>Municipio: San Juan de la Rambla</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.649866,28.393369,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 340018</name>
+	  <description>Municipio: San Juan de la Rambla</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.65076,28.39407,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 340019</name>
+	  <description>Municipio: San Juan de la Rambla</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.651109,28.393958,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 340020</name>
+	  <description>Municipio: San Juan de la Rambla</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.651326,28.394309,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 340021</name>
+	  <description>Municipio: San Juan de la Rambla</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.651393,28.394636,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 340022</name>
+	  <description>Municipio: San Juan de la Rambla</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.650999,28.394772,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 340023</name>
+	  <description>Municipio: San Juan de la Rambla</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.651423,28.395025,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 340024</name>
+	  <description>Municipio: San Juan de la Rambla</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.651133,28.395254,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 340025</name>
+	  <description>Municipio: San Juan de la Rambla</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.651345,28.395502,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 340026</name>
+	  <description>Municipio: San Juan de la Rambla</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.646341,28.378152,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 340027</name>
+	  <description>Municipio: San Juan de la Rambla</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.64535,28.376915,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 340028</name>
+	  <description>Municipio: San Juan de la Rambla</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.645186,28.379193,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 340029</name>
+	  <description>Municipio: San Juan de la Rambla</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.644536,28.381508,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 340030</name>
+	  <description>Municipio: San Juan de la Rambla</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.641528,28.396556,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 340031</name>
+	  <description>Municipio: San Juan de la Rambla</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.641471,28.396786,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 340032</name>
+	  <description>Municipio: San Juan de la Rambla</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.641137,28.397197,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 340033</name>
+	  <description>Municipio: San Juan de la Rambla</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.640932,28.396851,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 340034</name>
+	  <description>Municipio: San Juan de la Rambla</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.640905,28.396721,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 340035</name>
+	  <description>Municipio: San Juan de la Rambla</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.640483,28.396212,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 340036</name>
+	  <description>Municipio: San Juan de la Rambla</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.640506,28.395625,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 340037</name>
+	  <description>Municipio: San Juan de la Rambla</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.640706,28.396334,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 340038</name>
+	  <description>Municipio: San Juan de la Rambla</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.64094,28.396012,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 340039</name>
+	  <description>Municipio: San Juan de la Rambla</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.641105,28.39635,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 340040</name>
+	  <description>Municipio: San Juan de la Rambla</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.641638,28.395823,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 340041</name>
+	  <description>Municipio: San Juan de la Rambla</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.641726,28.396191,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 340042</name>
+	  <description>Municipio: San Juan de la Rambla</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.642173,28.395993,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 340043</name>
+	  <description>Municipio: San Juan de la Rambla</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.642121,28.3964,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 340044</name>
+	  <description>Municipio: San Juan de la Rambla</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.642683,28.39639,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280101</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.533881,28.415994,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280102</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.533533,28.415602,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280103</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.533059,28.415525,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280104</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.532557,28.415535,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280105</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.533735,28.415413,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280106</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.533304,28.415291,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280107</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.532572,28.415292,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280108</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.532302,28.41559,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280109</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.532235,28.415272,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280110</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.535431,28.412057,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280111</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.534907,28.412092,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280112</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.534114,28.412159,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280113</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.533274,28.412214,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280114</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.532897,28.4126,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280115</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.532623,28.412298,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280116</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.532345,28.412501,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280117</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.532329,28.412341,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280118</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.531978,28.412323,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280119</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.531688,28.412271,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280120</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.531313,28.412562,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280121</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.53094,28.412616,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280122</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.53092,28.412499,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280123</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.530249,28.412636,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280124</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.530277,28.412741,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280125</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.529656,28.412582,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280126</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.529904,28.412927,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280127</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.529379,28.413068,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280128</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.536256,28.411104,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280129</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.536067,28.410843,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280130</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.535839,28.410539,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280131</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.535606,28.410241,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280132</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.535887,28.410102,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280133</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.536125,28.410433,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280134</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.536343,28.410773,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280135</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.536579,28.411065,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280136</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.536661,28.41142,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280137</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.536916,28.410989,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280138</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.536995,28.41115,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280139</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.537238,28.410767,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280140</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.53751,28.410632,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280141</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.537374,28.410933,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280142</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.537625,28.410787,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280143</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.537907,28.410419,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280144</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.537997,28.410565,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280145</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.538479,28.410138,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280146</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.53865,28.410238,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280147</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.541599,28.409858,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280148</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.541273,28.409808,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280149</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.541101,28.40911,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280150</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.54044,28.408914,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280151</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.540341,28.40858,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280152</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.540321,28.408324,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280153</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.540299,28.407978,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280154</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.5402,28.408327,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280155</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.540195,28.408902,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280156</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.539891,28.409113,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280157</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.539639,28.408958,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280158</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.539268,28.408824,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280159</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.539273,28.408541,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280160</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.539562,28.408282,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280161</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.539712,28.407642,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280162</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.539294,28.40776,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280163</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.539046,28.408024,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280164</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.538748,28.408018,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280165</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.538451,28.408315,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280166</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.538396,28.40823,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280167</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.53813,28.408272,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280168</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.537936,28.408577,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280169</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.537493,28.408505,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280170</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.536932,28.407543,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280171</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.536452,28.406818,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280172</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.53681,28.40648,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280173</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.537036,28.406319,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280174</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.538942,28.405104,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280175</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.537101,28.405898,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280176</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.540172,28.406257,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280177</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.539704,28.406232,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280178</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.539652,28.40685,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280179</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.538431,28.404283,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280180</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.537987,28.403537,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280181</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.537363,28.402801,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280182</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.537447,28.403673,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280183</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.535584,28.404909,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280184</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.534869,28.40517,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280185</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.534856,28.404867,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280186</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.534622,28.404593,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280187</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.53429,28.404409,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280188</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.5348,28.404487,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280189</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.534553,28.404239,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 280190</name>
+	  <description>Municipio: Puerto de la Cruz</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.534324,28.403992,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 010001</name>
+	  <description>Municipio: Adeje</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.724269,28.125719,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 010002</name>
+	  <description>Municipio: Adeje</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.725365,28.124572,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 010003</name>
+	  <description>Municipio: Adeje</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.725754,28.12403,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 010004</name>
+	  <description>Municipio: Adeje</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.724792,28.123616,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 010005</name>
+	  <description>Municipio: Adeje</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.724441,28.123484,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 010006</name>
+	  <description>Municipio: Adeje</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.724318,28.123389,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 010007</name>
+	  <description>Municipio: Adeje</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.724397,28.122773,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 010008</name>
+	  <description>Municipio: Adeje</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.724548,28.122751,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 010009</name>
+	  <description>Municipio: Adeje</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.724263,28.122371,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 010010</name>
+	  <description>Municipio: Adeje</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.724222,28.122276,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 010011</name>
+	  <description>Municipio: Adeje</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.723508,28.122114,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 010012</name>
+	  <description>Municipio: Adeje</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.724706,28.121876,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 010013</name>
+	  <description>Municipio: Adeje</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.726841,28.123152,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 010014</name>
+	  <description>Municipio: Adeje</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.725236,28.121226,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 010015</name>
+	  <description>Municipio: Adeje</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.725598,28.120479,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 010016</name>
+	  <description>Municipio: Adeje</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.727817,28.122756,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 010017</name>
+	  <description>Municipio: Adeje</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.72614,28.120442,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 010018</name>
+	  <description>Municipio: Adeje</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.726247,28.120377,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 010019</name>
+	  <description>Municipio: Adeje</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.726681,28.120038,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 010020</name>
+	  <description>Municipio: Adeje</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.731508,28.121709,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 010021</name>
+	  <description>Municipio: Adeje</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.732321,28.121802,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 010022</name>
+	  <description>Municipio: Adeje</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.733458,28.12213,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 010023</name>
+	  <description>Municipio: Adeje</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.735643,28.122881,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 010024</name>
+	  <description>Municipio: Adeje</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.735966,28.123356,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 010025</name>
+	  <description>Municipio: Adeje</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.733494,28.119396,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 010026</name>
+	  <description>Municipio: Adeje</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.732094,28.120755,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 010027</name>
+	  <description>Municipio: Adeje</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.731963,28.120347,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 010028</name>
+	  <description>Municipio: Adeje</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.731879,28.1194,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 010029</name>
+	  <description>Municipio: Adeje</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.733549,28.118228,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 010030</name>
+	  <description>Municipio: Adeje</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.732145,28.118025,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 010031</name>
+	  <description>Municipio: Adeje</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.731869,28.116755,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 010032</name>
+	  <description>Municipio: Adeje</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.730738,28.11852,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 010033</name>
+	  <description>Municipio: Adeje</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.730454,28.117426,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 010034</name>
+	  <description>Municipio: Adeje</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.728612,28.122582,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 010035</name>
+	  <description>Municipio: Adeje</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.730373,28.116024,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 010036</name>
+	  <description>Municipio: Adeje</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.729997,28.115097,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 010037</name>
+	  <description>Municipio: Adeje</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.729324,28.114533,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 010038</name>
+	  <description>Municipio: Adeje</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.724834,28.122921,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 010039</name>
+	  <description>Municipio: Adeje</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.730151,28.121012,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 010040</name>
+	  <description>Municipio: Adeje</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.734338,28.117652,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 010041</name>
+	  <description>Municipio: Adeje</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.734639,28.118017,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 010042</name>
+	  <description>Municipio: Adeje</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.733306,28.116661,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 010043</name>
+	  <description>Municipio: Adeje</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.734115,28.115878,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 010044</name>
+	  <description>Municipio: Adeje</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.731822,28.115604,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 010045</name>
+	  <description>Municipio: Adeje</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.733109,28.11492,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 010046</name>
+	  <description>Municipio: Adeje</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.73156,28.114751,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 010047</name>
+	  <description>Municipio: Adeje</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.731491,28.113838,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 100019</name>
+	  <description>Municipio: Buenavista del Norte</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.854485,28.318185,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 100020</name>
+	  <description>Municipio: Buenavista del Norte</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.874332,28.341484,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 100021</name>
+	  <description>Municipio: Buenavista del Norte</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.876508,28.343496,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 100022</name>
+	  <description>Municipio: Buenavista del Norte</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.850398,28.341676,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 100023</name>
+	  <description>Municipio: Buenavista del Norte</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.845839,28.328857,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 320001</name>
+	  <description>Municipio: El Rosario</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.33123,28.41251,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 320002</name>
+	  <description>Municipio: El Rosario</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.33019,28.41001,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 320003</name>
+	  <description>Municipio: El Rosario</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.36669,28.45192,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 320004</name>
+	  <description>Municipio: El Rosario</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.36534,28.45349,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 320005</name>
+	  <description>Municipio: El Rosario</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.3683,28.42475,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 320006</name>
+	  <description>Municipio: El Rosario</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.33519,28.44224,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 320007</name>
+	  <description>Municipio: El Rosario</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.34059,28.45392,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 320008</name>
+	  <description>Municipio: El Rosario</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.37394,28.44049,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 320009</name>
+	  <description>Municipio: El Rosario</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.37441,28.43816,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 320010</name>
+	  <description>Municipio: El Rosario</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.37263,28.43742,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 320011</name>
+	  <description>Municipio: El Rosario</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.33144,28.40504,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380758</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.21593,28.56419,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380759</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.21632,28.56222,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380760</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.21707,28.56084,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380761</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.21727,28.56058,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380762</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.21875,28.56104,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380763</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.24425,28.55428,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380764</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.19677,28.57128,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380765</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.20335,28.57096,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380766</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.2042,28.56967,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380767</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.21574,28.56133,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380770</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.21459,28.55659,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380771</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.26485,28.55537,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380772</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.24694,28.54337,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380773</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.24718,28.54239,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380774</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.2523,28.53328,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380768</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.26343,28.53471,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380769</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.26937,28.53537,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380775</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.16354,28.55995,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380776</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.18974,28.55127,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380777</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.18954,28.51181,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380778</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.18955,28.51223,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380779</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.18899,28.51204,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380780</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.18777,28.5131,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380804</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.24082,28.49164,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380805</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.24059,28.49132,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380806</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.2408,28.49112,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380807</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.24054,28.49044,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380808</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.2396,28.48964,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380809</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.23954,28.48835,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380810</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.23947,28.48847,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380811</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.2389,28.4886,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380812</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.23906,28.48735,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380813</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.23932,28.48723,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380781</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.15661,28.52952,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380782</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.15662,28.5293,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380783</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.15678,28.52915,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380784</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.15703,28.52909,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380785</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.1571,28.52901,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380786</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.15703,28.52884,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380787</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.15579,28.52925,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380788</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.15518,28.52903,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380789</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.15618,28.52882,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380790</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.15617,28.52835,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380791</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.15573,28.5279,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380792</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.15564,28.52759,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380793</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.15564,28.52708,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380794</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.15572,28.52664,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380795</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.15584,28.52582,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380796</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.15577,28.52543,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380797</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.15571,28.52494,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380798</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.1556,28.52449,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380799</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.15564,28.52434,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380800</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.15543,28.52421,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380801</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.15408,28.52571,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380802</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.15406,28.52572,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 380803</name>
+	  <description>Municipio: Santa Cruz de Tenerife</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.15299,28.52503,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 110001</name>
+	  <description>Municipio: Candelaria</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.3714,28.35541,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 110002</name>
+	  <description>Municipio: Candelaria</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.37098,28.3549,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 110003</name>
+	  <description>Municipio: Candelaria</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.37048,28.3544,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 110004</name>
+	  <description>Municipio: Candelaria</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.37028,28.35509,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 110005</name>
+	  <description>Municipio: Candelaria</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.36989,28.3552,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 110007</name>
+	  <description>Municipio: Candelaria</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.36581,28.36259,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 110006</name>
+	  <description>Municipio: Candelaria</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.36771,28.36024,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 110008</name>
+	  <description>Municipio: Candelaria</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.36814,28.36202,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 110009</name>
+	  <description>Municipio: Candelaria</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.36765,28.36334,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 110010</name>
+	  <description>Municipio: Candelaria</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.36656,28.36537,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 110011</name>
+	  <description>Municipio: Candelaria</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.36607,28.36633,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 110012</name>
+	  <description>Municipio: Candelaria</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.3656,28.36717,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 110013</name>
+	  <description>Municipio: Candelaria</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.36501,28.36827,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 110014</name>
+	  <description>Municipio: Candelaria</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.36471,28.36884,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 110015</name>
+	  <description>Municipio: Candelaria</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.37489,28.35832,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 110016</name>
+	  <description>Municipio: Candelaria</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.37459,28.35909,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 110017</name>
+	  <description>Municipio: Candelaria</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.37324,28.38109,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 110018</name>
+	  <description>Municipio: Candelaria</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.37288,28.37994,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 110019</name>
+	  <description>Municipio: Candelaria</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.37388,28.38214,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 110020</name>
+	  <description>Municipio: Candelaria</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.37263,28.38167,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 110021</name>
+	  <description>Municipio: Candelaria</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.37253,28.37892,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 110022</name>
+	  <description>Municipio: Candelaria</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.34742,28.39417,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 110023</name>
+	  <description>Municipio: Candelaria</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.34683,28.39331,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 110024</name>
+	  <description>Municipio: Candelaria</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.34957,28.39523,0</coordinates>
+      </Point>
+    </Placemark><Placemark>
+      <name>Codigo hidrante: 110025</name>
+	  <description>Municipio: Candelaria</description>
+      <styleUrl>#exampleStyleMap</styleUrl>
+      <Point>
+        <coordinates>-16.34758,28.39534,0</coordinates>
+      </Point>
+    </Placemark>  </Document>
+</kml>

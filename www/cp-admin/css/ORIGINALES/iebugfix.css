@@ -1,0 +1,22 @@
+/*** Ajusta los bugs en IE ***/
+
+/*------------------------------------- CLASSes -------------------------------------*/
+#content input.button { padding: .1em 0 }
+
+/*------------------------------------- AVISOS IMPORTANTES -------------------------------------*/
+* html .important { height: 73px } /* para IE 6 */
+
+/*------------------------------------- MENU DE NAVEGACION -------------------------------------*/
+#header .nav-bar li span { height: 22px }
+#header .nav-bar li a.active span { padding-bottom: 1px }
+
+/*------------------------------------- ENCABEZADO DE PAGINA -------------------------------------*/
+.header-doc .head-button a:link,
+.header-doc .head-button a:visited { background-position: right 4px }
+
+/*------------------------------------- NUEVA ENTRADA -------------------------------------*/
+* html .new-entry h2 a.edit { position: static }
+* html .new-entry .stock { margin-right: 1px}
+.new-entry .publish .inner { padding-bottom: 0 }
+.new-entry .publish .statement-inner { margin-bottom: 15px }
+* html #content .new-entry .content textarea { width: 66% }

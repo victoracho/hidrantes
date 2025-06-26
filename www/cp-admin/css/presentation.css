@@ -1,0 +1,136 @@
+/*** Linea grafica del site ***/
+
+/*------------------------------------- GLOBAL ELEMENTS -------------------------------------*/
+body {
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	color: #333;
+	font: 62.5% Verdana, Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+
+a { text-decoration: none }
+a:link, a:visited { color: #2481d8 }
+a:link, a:visited { font-weight: bold }
+a:hover { text-decoration: underline }
+
+a img { border: 0 }
+
+abbr,
+acronym {
+	border-bottom: 1px dotted #999;
+	cursor: help;
+}
+
+p, ol, ul, dl, blockquote, form {
+	margin: 0 0 1em 0;
+	padding: 0;
+}
+
+hr { display: none }
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0 0 1em 0;
+	padding: 0;
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	float: left;
+	margin-bottom: 1em;
+	font-size: 18px;
+	text-transform:uppercase;
+	font-weight: normal;
+	color:#FFF;
+}
+
+.desktop h1 { margin-bottom: .3em }
+
+h2 { margin-bottom: .4em; font-size: 1.8em }
+
+#content ul ul { margin: 8px 0 8px 15px }
+
+	#content li {
+		padding-left: 10px;
+		font-size: 1.1em;
+		background: url('../images/bullet-rombo.gif') left 5px no-repeat;
+		list-style: none;
+	}
+	
+		#content li li { font-size: 1em }
+
+/*------------------------------------- CLASS -------------------------------------*/
+
+div.clr { clear: both; }
+.no-display { display: none }
+span.error{ display: block; color: #ff0000 }
+#content label.check-radio input { display: inline; width: auto; border: none }
+
+
+#content input.button {
+	height: 22.5px;
+	border-top: 1px solid #5aa6cb;
+	border-left: 1px solid #5aa6cb;
+	border-bottom: 1px solid #04aac9;
+	border-right: 1px solid #04aac9;
+	padding: 0 .5em;
+	background: #05c3e6;
+	color: #fff;
+	font: bold 12px Arial, Helvetica, sans-serif;
+	cursor: pointer;
+}
+
+#content label input,
+#content label textarea {
+	width: 180px;
+	border-top: 1px solid #c4c4c4;
+	border-left: 1px solid #c4c4c4;
+	border-right: 1px solid #ebebeb;
+	border-bottom: 1px solid #ebebeb;
+	padding: .2em .2em;
+	font-size: 1.4em;
+}
+
+#content label textarea { font-family: Arial, Helvetica, sans-serif }
+
+/*--- Boton anadir ---*/
+#content .add {
+	margin: 0 .2em 0 1em;
+	padding: .1em .9em .3em .9em;
+	background: url('../images/but-add.gif') left top no-repeat;
+	color: #fff;
+	font: bold 12px Arial, Helvetica, sans-serif;
+}
+
+/*--- Boton eliminar ---*/
+#content .delete {
+	margin-right: 1em;
+	padding: .1em .9em .3em .9em;
+	background: url('../images/but-delete.gif') left top no-repeat;
+	color: #fff;
+	font: bold 12px Arial, Helvetica, sans-serif;
+}
+
+/*--- Subir a inicio pagina ---*/
+#content p.top { padding-top: 50px }
+
+	#content p.top a {
+		border: 1px solid #dfdfdf;
+		padding: 0 1.5em 0 .5em;
+		background: url('../images/ico-arrow-top.gif') 3.3em center no-repeat;
+		color: #2481d8;
+		font: bold 14px Arial, Helvetica, sans-serif;
+		text-transform: lowercase;
+	}
+
+		#content p.top a:hover {
+			color: #000;
+			text-decoration: none;
+		}
+
+
+
+
+
